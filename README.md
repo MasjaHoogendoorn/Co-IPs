@@ -1,112 +1,94 @@
 # Co-IP proteomics
 
-Co-immunoprecipitation mass spectrometry from *Plasmodium falciparum*, analysed by
-Masja Hoogendoorn at Swiss TPH.
+Computational analysis of co-immunoprecipitation mass spectrometry (Co-IP-MS) data from *Plasmodium falciparum*.
 
-A Co-IP measures how much of a protein was recovered together with the bait. It does
-not measure how much of that protein the parasite contains, and it is not evidence of
-direct physical binding.
+Analyses by Masja Hoogendoorn, Swiss TPH.
 
-## The two experiments
+This repository contains two independent experiments, each with its own analysis notebook, figures, results and interpretation.
 
-| | FR002 | CK001 |
-|---|---|---|
-| bait | PfSUN1, `Q8I5Q5` | RON4, `Q8IIK5` |
-| conditions | control and PfSUN1 pull-down | DMSO, rapamycin, untagged NF54 |
-| runs per condition | 3 | 2 |
-| replicate type | independent biological preparations | one preparation, injected twice |
-| what that supports | limma and proDA, with p-values | descriptive fold changes only |
-| specificity analysis | SAINTexpress on spectral counts | none |
+## FR002 — PfSUN1 Co-IP
 
-CK001's two runs per condition are technical replicates, so it reports fold changes and
-the measurements behind them and applies no statistical test. FR002 has three
-independent preparations per condition, so it can.
+**Aim:** Identify proteins enriched in PfSUN1 pull-downs compared with controls.
 
-`output/FR002/README.md` and `output/CK001/README.md` give the design, the main
-findings and the limitations of each experiment. Read those before the notebooks.
+| | |
+|---|---|
+| Bait | PfSUN1 (`Q8I5Q5`) |
+| Samples | 3 pull-downs and 3 controls |
+| Replication | 3 independent biological preparations per condition |
+| Analysis | limma, proDA and SAINTexpress |
 
-## Software
+The analysis includes quality control, differential protein recovery and candidate interaction scoring. Biological replicates allow statistical comparisons, although the small sample size and missing measurements limit confidence.
+
+**[FR002 analysis notebook](notebooks/FR002_SUN.ipynb) · [Results and interpretation](output/FR002/README.md)**
+
+## CK001 — RON4 Co-IP
+
+**Aim:** Compare proteins recovered with RON4 after DMSO and rapamycin treatment.
+
+| | |
+|---|---|
+| Bait | RON4 (`Q8IIK5`) |
+| Samples | DMSO, rapamycin and untagged NF54 control |
+| Replication | 1 biological preparation per condition, measured twice |
+| Analysis | Descriptive intensity comparisons and fold changes |
+
+The analysis includes quality control, bait recovery and changes in co-recovered proteins. The repeated measurements are technical replicates, so differences are descriptive and no statistical significance testing is performed.
+
+**[CK001 analysis notebook](notebooks/CK001_RON4.ipynb) · [Results and interpretation](output/CK001/README.md)**
+
+## Installation
+
+Create and activate the software environment:
 
 ```bash
 mamba env create -f environment.yml -n coip
 conda activate coip
 ```
 
-That installs Python, R, limma, proDA and the rest. FR002 also uses SAINTexpress,
-which the notebook downloads into `.tools/` on first use (about 9 MB) and checks
-against its published checksum, so it needs an internet connection the first time.
+The environment includes Python, R, limma and proDA.
 
 ## Input data
 
-The two ProteoFlux workbooks are in the repository:
+Both experiments use processed ProteoFlux tables, stored in `input/FR002/` and `input/CK001/`. The original workbooks are not modified.
 
-```
-input/FR002/list_of_identified_proteins_FR002_proteoflux_table.xlsx
-input/CK001/list_of_identified_proteins.xlsx
-```
-
-Each notebook records the SHA-256 of the workbook it read, and never modifies it.
-
-FR002 also needs protein sequences, to give SAINTexpress the length of every prey. Two
-of the three files are too large for the repository and are rebuilt from UniProt:
+**FR002 only:** SAINTexpress requires additional protein reference sequences. Download and prepare them using:
 
 ```bash
 python input/reference/build_species_proteomes.py input/FR002/*.xlsx
 ```
 
-This downloads the reviewed human proteome, the *P. falciparum* proteome and the
-archived versions of accessions that UniProt has since retired. It takes a few minutes
-and needs an internet connection. CK001 does not use these files.
+FR002 also downloads SAINTexpress automatically on first use. Both steps require an internet connection.
+
+CK001 requires neither step.
 
 ## Running an analysis
 
-Open either notebook in Jupyter and run all cells from top to bottom:
+Start JupyterLab:
 
 ```bash
-jupyter lab notebooks/FR002_SUN.ipynb
-jupyter lab notebooks/CK001_RON4.ipynb
+jupyter lab
 ```
 
-Each notebook is self-contained: it reads its workbook, writes its own figures and
-tables, and depends on no other notebook. Paths are resolved relative to the project,
-so the working directory does not matter.
+Open the relevant notebook in `notebooks/` and run all cells from top to bottom.
 
-Every scientific choice — the samples, the bait, the normalisation, the thresholds —
-is in one configuration cell near the top. Nothing in `src/coip/` knows about a
-particular experiment.
+The notebooks run independently, using shared Python and R functions from `src/coip/`. Experiment-specific settings are defined near the beginning of each notebook.
 
-## Where the results go
+## Repository structure
 
-```
-output/FR002/figures/    11 figures as PDF, SVG and 400 dpi PNG
-output/FR002/tables/     the source data behind every figure
-output/FR002/saint/      the files SAINTexpress was given and what it returned
-output/CK001/figures/    9 figures
-output/CK001/tables/     the source data behind every figure
+```text
+notebooks/       Analysis notebooks for FR002 and CK001
+src/coip/        Shared Python and R code
+input/           ProteoFlux tables and reference files
+output/FR002/    PfSUN1 results
+output/CK001/    RON4 results
+environment.yml  Software dependencies
+figure_style.txt Figure conventions
 ```
 
-Re-running a notebook overwrites them.
+Each output directory contains figures (PDF, SVG and 400 dpi PNG), numerical result tables and an experiment-specific README. Re-running an analysis overwrites its generated outputs.
 
-## What the code does
+## Interpretation
 
-```
-src/coip/data.py          read and validate a workbook, QC numbers
-src/coip/processing.py    log2, median equalisation, condition summaries
-src/coip/differential.py  the Python side of limma and proDA
-src/coip/limma.R          the limma model
-src/coip/proda.R          the proDA model
-src/coip/saint.py         spectral count summaries, and SAINTexpress for FR002
-src/coip/figures.py       the figure style and every figure
-```
+Missing intensity measurements are kept as missing values, without imputation.
 
-`figure_style.txt` records the plotting conventions and the approved colours.
-
-## Limitations that apply to both experiments
-
-Missing measurements are never imputed and never drawn as zero. A protein that was not
-quantified in a run counts as missing, and a fold change that cannot be estimated is
-left empty rather than filled in.
-
-A difference in recovery is not a difference in abundance, and agreement between an
-intensity-based and a spectral-count analysis is not independent validation: both read
-the same six measurements.
+Co-IP-MS measures proteins recovered during a pull-down. Differences in recovery do not necessarily reflect changes in cellular protein abundance, and co-recovery does not establish direct physical binding.
