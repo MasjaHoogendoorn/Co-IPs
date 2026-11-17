@@ -1,0 +1,7 @@
+sample,condition,bait_log2_intensity,rank_by_intensity,of_n_quantified,percent_of_sample_signal,spectral_counts,identification_qvalue,peptides_measured,peptides_total
+001,control,,,444,,0,,0,14
+002,pulldown,17.112,17.0,294,1.4,14,0.0,13,14
+003,control,12.186,363.0,457,0.02,1,0.003902424592524767,1,14
+004,pulldown,17.723,29.0,472,0.79,15,0.0,14,14
+005,control,,,458,,0,,0,14
+006,pulldown,16.325,20.0,219,1.21,14,0.0,13,14

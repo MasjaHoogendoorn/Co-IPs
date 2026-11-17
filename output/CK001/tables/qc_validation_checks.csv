@@ -1,0 +1,16 @@
+check,result,detail
+the workbook has the expected sheet,pass,"'Summary' not among ['README', 'Summary', 'Sheet1', 'Identification Qvalue', 'Identification PEP', 'Spectral Counts', 'IBAQ Values', 'Peptides (raw)']"
+protein identifiers are present,pass,no UNIPROT_AC column
+intensity columns are present,pass,no column starts with 'Raw_Intensities'
+sample 001 maps to one column,pass,matched ['Raw_Intensities001_CK001_G26']
+sample 003 maps to one column,pass,matched ['Raw_Intensities003_CK001_G26']
+sample 002 maps to one column,pass,matched ['Raw_Intensities002_CK001_G26']
+sample 004 maps to one column,pass,matched ['Raw_Intensities004_CK001_G26']
+sample 005 maps to one column,pass,matched ['Raw_Intensities005_CK001_G26']
+sample 006 maps to one column,pass,matched ['Raw_Intensities006_CK001_G26']
+no column serves two samples,pass,
+all intensity columns are accounted for,pass,
+protein groups are unique,pass,a protein group appears twice
+intensities are numeric and non-negative,pass,
+no intensity is exactly zero,pass,zeros would become -inf on the log2 scale
+no protein group is missing from every sample,pass,

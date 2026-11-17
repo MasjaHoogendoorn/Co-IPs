@@ -1,0 +1,568 @@
+UNIPROT_AC,gene,description,species,n_control,mean_log2_control,spectra_control,n_pulldown,mean_log2_pulldown,spectra_pulldown,log2FC,avg_log2,t,p_value,p_adjusted,log2FC_unnormalised,tested,exclusion_reason
+P62805,H4C1,Histone H4,human,3,18.457,24,3,18.745,18,,,,,,,False,not a P. falciparum protein group
+Q8ILZ7,PF3D7_1409800,"CUGBP Elav-like family member 2, putative",P. falciparum,3,19.361,82,3,17.337,48,-2.02369787973027,18.3491846223329,-5.51536689819052,0.000121997866211252,0.00135722626160017,-2.85183391617144,True,
+P60709;P63261,ACTB,"Actin, cytoplasmic 1;Actin, cytoplasmic 2",human,3,19.649,66,3,18.908,45,,,,,,,False,not a P. falciparum protein group
+P02549,SPTA1,"Spectrin alpha chain, erythrocytic 1",human,3,18.22,115,3,17.028,59,,,,,,,False,not a P. falciparum protein group
+P11277,SPTB,"Spectrin beta chain, erythrocytic",human,3,18.123,84,3,16.934,48,,,,,,,False,not a P. falciparum protein group
+P02730,SLC4A1,Band 3 anion transport protein,human,3,18.147,39,3,16.696,25,,,,,,,False,not a P. falciparum protein group
+P0DMV8;P0DMV9,HSPA1A,Heat shock 70 kDa protein 1A;Heat shock 70 kDa protein 1B,human,3,17.345,38,3,17.084,30,,,,,,,False,not a P. falciparum protein group
+Q8I4T3,PF3D7_1250100,Osmiophilic body protein,P. falciparum,3,17.658,80,3,19.205,118,1.54693233906277,18.4319461237344,4.86786717138909,0.000360898867053494,0.00238890645178618,0.718796302621605,True,
+P25705,ATP5F1A,"ATP synthase subunit alpha, mitochondrial",human,3,16.73,24,3,16.494,14,,,,,,,False,not a P. falciparum protein group
+Q8IHU0,PF3D7_1142500,60S ribosomal protein L28,P. falciparum,3,17.589,21,3,16.676,18,-0.912896677704278,17.1325989063009,-3.0273218886122,0.0102705001889824,0.0351567121853628,-1.74103271414544,True,
+P04908;P0C0S8;P20671;Q16777;Q6FI13;Q7L7L0;Q93077;Q96KK5;Q99878;Q9BTM1,H2AC4,Histone H2A type 1-B/E;Histone H2A type 1;Histone H2A type 1-D;Histone H2A type 2-C;Histone H2A type 2-A;Histone H2A type 3;Histone H2A type 1-C;Histone H2A type 1-H;Histone H2A type 1-J;Histone H2A.J,human,3,17.559,8,3,17.723,8,,,,,,,False,not a P. falciparum protein group
+P23527,H2BC17,Histone H2B type 1-O,human,3,17.258,19,3,17.023,14,,,,,,,False,not a P. falciparum protein group
+P81605,DCD,Dermcidin,human,3,17.594,9,3,17.293,8,,,,,,,False,not a P. falciparum protein group
+C0H4D7,PF3D7_0513700,"Secreted ookinete protein, putative",P. falciparum,3,17.274,38,3,18.84,49,1.56596980304958,18.0573787017002,5.13115701332077,0.000230574944307133,0.00205211700433348,0.737833766608428,True,
+P68363,TUBA1B,Tubulin alpha-1B chain,human,3,16.398,20,3,16.7,16,,,,,,,False,not a P. falciparum protein group
+Q02413,DSG1,Desmoglein-1,human,3,18.076,53,3,18.641,54,,,,,,,False,not a P. falciparum protein group
+P16157,ANK1,Ankyrin-1,human,3,16.733,41,3,15.673,25,,,,,,,False,not a P. falciparum protein group
+Q8I0P6,PF3D7_1357000,Elongation factor 1-alpha,P. falciparum,3,16.735,32,3,15.994,22,-0.741574907173241,16.3645125036503,-2.52543710053775,0.0262432648905228,0.0715979000309453,-1.56971094361441,True,
+P04406,GAPDH,Glyceraldehyde-3-phosphate dehydrogenase,human,3,18.351,48,3,18.114,30,,,,,,,False,not a P. falciparum protein group
+Q8IAX5,PF3D7_0813900,"40S ribosomal protein S16, putative",P. falciparum,3,16.862,17,3,17.142,16,0.279309065136406,17.0021289627843,0.994523725623302,0.339148488725681,0.520417508561821,-0.548826971304752,True,
+Q8IJ34,PF3D7_1037300,ADP/ATP transporter on adenylate translocase,P. falciparum,3,16.68,16,3,15.59,9,-1.08990150047118,16.134874612257,-3.94184450008866,0.00187178537227104,0.00793280467295823,-1.91803753691234,True,
+P68104;Q5VTE0,EEF1A1,Elongation factor 1-alpha 1;Putative elongation factor 1-alpha-like 3,human,3,17.168,23,3,17.207,19,,,,,,,False,not a P. falciparum protein group
+P12277,CKB,Creatine kinase B-type,human,3,15.517,12,3,15.822,12,,,,,,,False,not a P. falciparum protein group
+P68871,HBB,Hemoglobin subunit beta,human,3,16.84,15,3,15.417,11,,,,,,,False,not a P. falciparum protein group
+P11142,HSPA8,Heat shock cognate 71 kDa protein,human,3,16.027,30,3,15.924,14,,,,,,,False,not a P. falciparum protein group
+P06733,ENO1,Alpha-enolase,human,3,15.903,29,3,15.892,15,,,,,,,False,not a P. falciparum protein group
+Q5D862,FLG2,Filaggrin-2,human,3,17.333,45,3,18.047,22,,,,,,,False,not a P. falciparum protein group
+C0H4V6,PF3D7_0818200,14-3-3 protein,P. falciparum,3,16.419,18,3,14.455,10,-1.96421742750803,15.4369481775385,-7.02791488397892,1.2144353016413e-05,0.000212895655454905,-2.7923534639492,True,
+Q8IK89,PF3D7_1474900,"Trailer hitch homolog, putative",P. falciparum,3,16.532,20,3,16.634,18,0.101443710529526,16.583086921468,0.30510896365016,0.765389359695077,0.836211932429296,-0.726692325911625,True,
+P68371,TUBB4B,Tubulin beta-4B chain,human,3,16.229,26,3,16.429,23,,,,,,,False,not a P. falciparum protein group
+Q8ILN8,PF3D7_1421200,40S ribosomal protein S25,P. falciparum,3,16.355,9,3,15.771,6,-0.5842423149872,16.063167721927,-2.04396986255662,0.0630006346200532,0.147554117925914,-1.41237835142837,True,
+P14923,JUP,Junction plakoglobin,human,3,17.707,64,3,18.541,74,,,,,,,False,not a P. falciparum protein group
+Q8IB24,PF3D7_0818900,Heat shock protein 70,P. falciparum,3,16.652,38,3,14.856,12,-1.79633836174723,15.7541535162471,-4.66053024077384,0.00051696256557989,0.00287560427103814,-2.62447439818839,True,
+P05141,SLC25A5,ADP/ATP translocase 2,human,3,15.02,16,3,15.072,9,,,,,,,False,not a P. falciparum protein group
+Q8IIJ8,PF3D7_1116800,Heat shock protein 101,P. falciparum,3,16.294,44,3,17.655,55,1.36050907222431,16.9746638717076,4.84438531931062,0.000375783037359624,0.00238890645178618,0.532373035783159,True,
+P10809,HSPD1,"60 kDa heat shock protein, mitochondrial",human,3,15.196,20,3,14.982,17,,,,,,,False,not a P. falciparum protein group
+P09651;Q32P51,HNRNPA1,Heterogeneous nuclear ribonucleoprotein A1;Heterogeneous nuclear ribonucleoprotein A1-like 2,human,3,14.652,11,2,15.759,6,,,,,,,False,not a P. falciparum protein group
+P27105,STOM,Stomatin,human,3,15.805,19,3,14.824,9,,,,,,,False,not a P. falciparum protein group
+Q8IE82,PF3D7_1323400,60S ribosomal protein L23,P. falciparum,3,15.712,9,3,16.178,10,0.466887962327119,15.9449624509679,1.44320285719511,0.173967765208682,0.341275651151484,-0.361248074114044,True,
+A0A143ZZG2;Q8IJD4,PF3D7_1026800,40S ribosomal protein SA,P. falciparum,3,16.157,11,3,13.605,6,-2.55216713309841,14.8807863098862,-8.47739740405285,1.75213923326155e-06,5.19801305867594e-05,-3.38030316953958,True,
+Q8IK02,PF3D7_1003500,"40S ribosomal protein S20e, putative",P. falciparum,3,16.06,7,3,16.299,6,0.238591862320469,16.1794350356397,0.782934344834051,0.448491800603921,0.602377930995428,-0.589544174120689,True,
+Q03498;Q76NM6,vapA,V-type proton ATPase catalytic subunit A,P. falciparum,3,15.931,21,3,15.164,15,-0.766712859691406,15.5476447703562,-2.71262140751195,0.0185247583421232,0.0549567830816323,-1.59484889613256,True,
+O75665,OFD1,Oral-facial-digital syndrome 1 protein,human,3,15.76,6,3,17.303,3,,,,,,,False,not a P. falciparum protein group
+P07355,ANXA2,Annexin A2,human,3,17.359,44,3,16.974,25,,,,,,,False,not a P. falciparum protein group
+P0CG47;P0CG48;P62979;P62987,UBB,Polyubiquitin-B;Polyubiquitin-C;Ubiquitin-40S ribosomal protein S27a;Ubiquitin-60S ribosomal protein L40,human,3,15.677,4,3,15.69,3,,,,,,,False,not a P. falciparum protein group
+P23528,CFL1,Cofilin-1,human,3,14.35,8,1,14.97,2,,,,,,,False,not a P. falciparum protein group
+P22735,TGM1,Protein-glutamine gamma-glutamyltransferase K,human,3,17.167,49,3,16.866,31,,,,,,,False,not a P. falciparum protein group
+P68431;P84243;Q16695;Q71DI3,H3C1,Histone H3.1;Histone H3.3;Histone H3.1t;Histone H3.2,human,3,16.439,15,3,15.703,11,,,,,,,False,not a P. falciparum protein group
+Q8ILF4,PF3D7_1431100,Uncharacterized protein,P. falciparum,3,15.868,19,2,12.881,2,,,,,,,False,fewer than 3 observations in pulldown
+P05089,ARG1,Arginase-1,human,3,16.802,18,3,17.448,16,,,,,,,False,not a P. falciparum protein group
+Q8I431,PF3D7_0507100,60S ribosomal protein L4,P. falciparum,3,15.7,26,3,16.587,26,0.886913407528834,16.143793543165,3.0800913659927,0.00930153029545893,0.0331134478518338,0.0587773710876753,True,
+P17031,ZNF26,Zinc finger protein 26,human,3,16.152,3,3,16.892,3,,,,,,,False,not a P. falciparum protein group
+Q8IFP3,PF3D7_0422300,Tubulin alpha chain,P. falciparum,3,15.434,6,3,16.451,7,1.01693477393446,15.9426064394335,2.82694339695511,0.0149578244575229,0.0459050474730876,0.188798737493295,True,
+P69905,HBA1,Hemoglobin subunit alpha,human,3,15.814,12,3,14.402,8,,,,,,,False,not a P. falciparum protein group
+P63104,YWHAZ,14-3-3 protein zeta/delta,human,3,16.312,22,3,14.535,9,,,,,,,False,not a P. falciparum protein group
+Q8ID50,PF3D7_1365900,Ubiquitin-60S ribosomal protein L40,P. falciparum,3,16.568,19,3,15.975,13,-0.592750298308834,16.2714530268079,-0.891267915863651,0.389903118460819,0.568875041688736,-1.42088633475,True,
+P29508,SERPINB3,Serpin B3,human,3,17.181,37,3,16.586,22,,,,,,,False,not a P. falciparum protein group
+P07437,TUBB,Tubulin beta chain,human,3,14.563,8,3,14.468,7,,,,,,,False,not a P. falciparum protein group
+P22626,HNRNPA2B1,Heterogeneous nuclear ribonucleoproteins A2/B1,human,3,14.509,13,3,14.213,7,,,,,,,False,not a P. falciparum protein group
+Q8IKK7,PF3D7_1462800,Glyceraldehyde-3-phosphate dehydrogenase,P. falciparum,3,15.688,19,3,12.914,3,-2.77470352357396,14.3008819771415,-8.75821300325927,1.23780753117908e-06,5.19801305867594e-05,-3.60283956001513,True,
+Q08188,TGM3,Protein-glutamine gamma-glutamyltransferase E,human,3,16.34,27,3,16.697,24,,,,,,,False,not a P. falciparum protein group
+P07900,HSP90AA1,Heat shock protein HSP 90-alpha,human,3,15.434,26,3,15.506,13,,,,,,,False,not a P. falciparum protein group
+Q06830,PRDX1,Peroxiredoxin-1,human,3,16.626,23,3,16.942,19,,,,,,,False,not a P. falciparum protein group
+Q01469,FABP5,Fatty acid-binding protein 5,human,3,16.388,11,3,16.555,9,,,,,,,False,not a P. falciparum protein group
+Q08495,DMTN,Dematin,human,3,15.252,13,0,,0,,,,,,,False,not a P. falciparum protein group
+Q86YZ3,HRNR,Hornerin,human,3,15.841,35,3,18.322,54,,,,,,,False,not a P. falciparum protein group
+Q8IEU2,PF3D7_1302100,Gamete antigen 27/25,P. falciparum,3,14.926,4,1,11.547,1,,,,,,,False,fewer than 3 observations in pulldown
+P04083,ANXA1,Annexin A1,human,3,14.806,16,2,12.947,2,,,,,,,False,not a P. falciparum protein group
+Q8IAX8,PF3D7_0814200,DNA/RNA-binding protein Alba 1,P. falciparum,3,15.269,18,3,14.311,11,-0.957715348407449,14.7896829529086,-3.08599859669017,0.00919891714533825,0.0331134478518338,-1.78585138484861,True,
+A0A144A1R5;Q8I4X0,PF3D7_1246200,Actin I;Actin-1,P. falciparum,3,15.216,15,2,12.985,2,,,,,,,False,fewer than 3 observations in pulldown
+Q5T750,XP32,Skin-specific protein 32,human,3,16.746,10,3,17.509,10,,,,,,,False,not a P. falciparum protein group
+O97313,MAL3P7.35,40S ribosomal protein S3a,P. falciparum,3,15.314,15,3,16.003,15,0.689596537297607,15.6584858786846,2.37906782188321,0.0343759915506683,0.0876762694826784,-0.138539499143548,True,
+Q00013,MPP1,55 kDa erythrocyte membrane protein,human,3,15.053,12,3,14.618,9,,,,,,,False,not a P. falciparum protein group
+P16452,EPB42,Protein 4.2,human,3,14.98,21,3,14.092,12,,,,,,,False,not a P. falciparum protein group
+P07339,CTSD,Cathepsin D,human,3,16.762,19,3,16.187,14,,,,,,,False,not a P. falciparum protein group
+O43768,ENSA,Alpha-endosulfine,human,3,14.83,3,3,16.235,3,,,,,,,False,not a P. falciparum protein group
+P12236,SLC25A6,ADP/ATP translocase 3,human,3,13.777,3,2,14.544,2,,,,,,,False,not a P. falciparum protein group
+Q8I3U6,PF3D7_0516200,40S ribosomal protein S11,P. falciparum,3,15.186,14,3,13.866,7,-1.31933307393118,14.5259740042032,-4.23858205331663,0.0010924648914976,0.00527604066420125,-2.14746911037234,True,
+P60842,EIF4A1,Eukaryotic initiation factor 4A-I,human,3,14.76,10,3,14.203,13,,,,,,,False,not a P. falciparum protein group
+Q9UBC9,SPRR3,Small proline-rich protein 3,human,2,13.065,2,1,13.626,2,,,,,,,False,not a P. falciparum protein group
+P19338,NCL,Nucleolin,human,3,13.764,12,1,17.272,8,,,,,,,False,not a P. falciparum protein group
+P25311,AZGP1,Zinc-alpha-2-glycoprotein,human,3,15.95,11,3,16.045,5,,,,,,,False,not a P. falciparum protein group
+Q8IKH8,PF3D7_1465900,40S ribosomal protein S3,P. falciparum,3,15.342,18,3,15.505,14,0.162842152425181,15.4232445964932,0.513624763055285,0.616624001213972,0.722099159316362,-0.665293884015981,True,
+C6KSY6,PF3D7_0614500,60S ribosomal protein L19,P. falciparum,3,15.105,9,3,15.34,6,0.235193010680444,15.2225495020472,0.72407367516909,0.482578464107804,0.622456279791226,-0.592943025760723,True,
+Q8IE09,PF3D7_1331800,"60S ribosomal protein L23, putative",P. falciparum,3,14.85,4,3,14.993,3,0.143438006301622,14.9214287808508,0.516814358720017,0.614460382159426,0.722099159316362,-0.684698030139542,True,
+P07737,PFN1,Profilin-1,human,3,14.226,8,1,16.512,5,,,,,,,False,not a P. falciparum protein group
+Q96QA5,GSDMA,Gasdermin-A,human,3,16.34,18,3,16.251,13,,,,,,,False,not a P. falciparum protein group
+P12268,IMPDH2,Inosine-5'-monophosphate dehydrogenase 2,human,3,14.021,3,3,14.111,4,,,,,,,False,not a P. falciparum protein group
+P07910,HNRNPC,Heterogeneous nuclear ribonucleoproteins C1/C2,human,3,13.363,10,1,17.462,8,,,,,,,False,not a P. falciparum protein group
+P40926,MDH2,"Malate dehydrogenase, mitochondrial",human,3,13.981,11,2,14.034,8,,,,,,,False,not a P. falciparum protein group
+Q8IJ66,PF3D7_1034400,"Succinate dehydrogenase [ubiquinone] flavoprotein subunit, mitochondrial",P. falciparum,3,14.912,16,2,12.46,3,,,,,,,False,fewer than 3 observations in pulldown
+P61604,HSPE1,"10 kDa heat shock protein, mitochondrial",human,3,13.79,10,1,17.207,5,,,,,,,False,not a P. falciparum protein group
+O77381,PF3D7_0317600,"40S ribosomal protein S11, putative",P. falciparum,3,14.971,3,3,14.825,3,-0.145934544807892,14.8980207715521,-0.424981290799913,0.678197116183342,0.773840299234839,-0.974070581249052,True,
+Q8IC05,PF3D7_0708400,Heat shock protein 90,P. falciparum,3,14.638,16,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8IDM3,PF3D7_1347500,DNA/RNA-binding protein Alba 4,P. falciparum,3,14.539,5,3,13.862,4,-0.676649644331496,14.2007180562839,-2.09703356103321,0.0573186732709855,0.137874646516695,-1.50478568077265,True,
+Q8II62,PF3D7_1130100,60S ribosomal protein L38,P. falciparum,3,14.968,11,3,15.441,10,0.472899961316944,15.2045072895115,1.50215749035662,0.158310958047602,0.320219892414468,-0.355236075124209,True,
+Q8I3T9,PF3D7_0516900,60S ribosomal protein L2,P. falciparum,3,14.9,15,3,15.113,10,0.213033585936062,15.0061662523463,0.753537677475478,0.465320333771633,0.609022201554049,-0.615102450505093,True,
+Q8II61,PF3D7_1130200,60S acidic ribosomal protein P0,P. falciparum,3,14.799,14,3,14.223,8,-0.576480475945617,14.510996222925,-1.93576557333125,0.0762398862746976,0.169633746961202,-1.40461651238678,True,
+P10599,TXN,Thioredoxin,human,3,15.436,9,3,16.354,9,,,,,,,False,not a P. falciparum protein group
+P63244,RACK1,Receptor of activated protein C kinase 1,human,3,13.865,6,2,13.766,4,,,,,,,False,not a P. falciparum protein group
+O96258,PF3D7_0217800,40S ribosomal protein S26,P. falciparum,3,14.598,3,3,14.427,3,-0.170695734021928,14.5123152372426,-0.571983567726058,0.577646912966405,0.714035767416806,-0.998831770463086,True,
+Q8IE85,PF3D7_1323100,"60S ribosomal protein L6, putative",P. falciparum,3,14.455,6,3,14.842,6,0.386365677268756,14.6485418244759,1.3302881360494,0.207584653738882,0.377041513933887,-0.441770359172406,True,
+Q13838,DDX39B,Spliceosome RNA helicase DDX39B,human,3,13.223,7,1,16.999,7,,,,,,,False,not a P. falciparum protein group
+P06576,ATP5F1B,"ATP synthase subunit beta, mitochondrial",human,3,14.159,19,3,15.119,18,,,,,,,False,not a P. falciparum protein group
+O97285,PF3D7_0320800,ATP-dependent RNA helicase DDX6,P. falciparum,3,14.657,14,3,15.499,20,0.842261975802208,15.0783557332995,2.51921344565674,0.0265475359665303,0.0715979000309453,0.0141259393610405,True,
+Q5T749,KPRP,Keratinocyte proline-rich protein,human,3,16.997,34,3,18.328,32,,,,,,,False,not a P. falciparum protein group
+Q8IIB2,PF3D7_1125100,"Vacuolar membrane protein-related, putative",P. falciparum,3,14.8,13,3,14.716,10,-0.0843702146161291,14.7580876485295,-0.298320975519288,0.770442454597779,0.836211932429296,-0.912506251057287,True,
+Q8IE35,PF3D7_1327300,Uncharacterized protein,P. falciparum,3,14.108,19,1,12.032,1,,,,,,,False,fewer than 3 observations in pulldown
+P14618,PKM,Pyruvate kinase PKM,human,3,15.561,26,3,16.47,21,,,,,,,False,not a P. falciparum protein group
+O43390,HNRNPR,Heterogeneous nuclear ribonucleoprotein R,human,3,13.421,3,2,13.365,5,,,,,,,False,not a P. falciparum protein group
+Q8I399,PF3D7_0905000,Uncharacterized protein,P. falciparum,3,14.747,13,3,12.139,6,-2.60731521724256,13.4428854851943,-9.04284138245703,8.77655712098104e-07,5.19801305867594e-05,-3.43545125368372,True,
+P11166,SLC2A1,"Solute carrier family 2, facilitated glucose transporter member 1",human,3,14.828,5,1,12.881,1,,,,,,,False,not a P. falciparum protein group
+P01860,IGHG3,Immunoglobulin heavy constant gamma 3,human,3,16.67,21,3,14.688,7,,,,,,,False,not a P. falciparum protein group
+P10412;P16402;P16403,H1-4,Histone H1.4;Histone H1.3;Histone H1.2,human,3,13.164,4,1,16.924,3,,,,,,,False,not a P. falciparum protein group
+Q8IBC3,PF3D7_0829200,"Prohibitin, putative",P. falciparum,3,14.42,17,3,14.206,10,-0.214426866833314,14.3128023511258,-0.682966338331445,0.50730021652004,0.644995989575479,-1.04256290327447,True,
+P04040,CAT,Catalase,human,3,15.114,12,3,15.566,14,,,,,,,False,not a P. falciparum protein group
+C6KST5,PF3D7_0608700,T-complex protein 1 subunit zeta,P. falciparum,3,15.117,23,3,14.702,17,-0.415064873177961,14.9093106793001,-1.17577450238489,0.261962288100426,0.449306248577433,-1.24320090961912,True,
+Q8ILW2,PF3D7_1413200,Uncharacterized protein,P. falciparum,3,14.691,15,3,17.264,21,2.57294606516091,15.9771850084269,6.91120490831379,1.43525160980835e-05,0.000212895655454905,1.74481002871975,True,
+Q8IIV1,PF3D7_1105100,Histone H2B,P. falciparum,3,14.208,8,3,14.643,8,0.435345189189851,14.4253408894531,1.4048872644695,0.184826312929252,0.349990252142627,-0.392790847251316,True,
+Q8IE80,PF3D7_1323700,Glideosome associated protein with multiple membrane spans 1,P. falciparum,3,14.181,4,3,14.436,4,0.255625289314183,14.308412304775,0.803588286350395,0.436903714854972,0.602377930995428,-0.57251074712698,True,
+C0H5J5,PF3D7_1360900.1,"Polyadenylate-binding protein, putative",P. falciparum,3,14.468,9,3,14.513,8,0.0451480045255561,14.4906744628784,0.154583103931335,0.879659930957068,0.92660682474169,-0.782988031915604,True,
+Q96P63,SERPINB12,Serpin B12,human,3,15.604,18,3,17.15,24,,,,,,,False,not a P. falciparum protein group
+Q8IL02,PF3D7_1447000,40S ribosomal protein S5,P. falciparum,3,14.303,9,3,14.263,6,-0.0403909103706344,14.2828344439391,-0.147717846168069,0.884961574191502,0.92660682474169,-0.868526946811793,True,
+Q8ILF6,PF3D7_1430800,Uncharacterized protein,P. falciparum,3,14.729,9,3,12.702,4,-2.02732800012583,13.7152271494717,-5.58573594494889,0.000108815481121987,0.00135722626160017,-2.85546403656699,True,
+Q8IJC6,PF3D7_1027800,60S ribosomal protein L3,P. falciparum,3,14.392,13,3,14.58,10,0.188638805786983,14.4859349227101,0.625574655948776,0.543037840404402,0.680709405577349,-0.639497230654184,True,
+P50914,RPL14,60S ribosomal protein L14,human,3,12.702,4,1,16.585,1,,,,,,,False,not a P. falciparum protein group
+P05109,S100A8,Protein S100-A8,human,3,15.047,15,2,14.218,7,,,,,,,False,not a P. falciparum protein group
+P01040,CSTA,Cystatin-A,human,3,14.263,11,3,15.445,10,,,,,,,False,not a P. falciparum protein group
+A0A143ZWL7;Q7KQL5,PF3D7_1008700,Tubulin beta chain,P. falciparum,3,14.677,5,3,16.168,11,1.49052574714217,15.4224951819981,3.71633457271724,0.00283442467341355,0.0109679911275568,0.66238971070101,True,
+Q07020,RPL18,60S ribosomal protein L18,human,3,13.081,5,2,13.136,3,,,,,,,False,not a P. falciparum protein group
+P46783,RPS10,40S ribosomal protein S10,human,2,12.74,3,1,16.926,4,,,,,,,False,not a P. falciparum protein group
+P61978,HNRNPK,Heterogeneous nuclear ribonucleoprotein K,human,3,12.994,5,1,16.736,3,,,,,,,False,not a P. falciparum protein group
+P62937,PPIA,Peptidyl-prolyl cis-trans isomerase A,human,3,13.573,9,2,14.147,8,,,,,,,False,not a P. falciparum protein group
+P07195,LDHB,L-lactate dehydrogenase B chain,human,2,12.652,2,1,16.674,6,,,,,,,False,not a P. falciparum protein group
+P22314,UBA1,Ubiquitin-like modifier-activating enzyme 1,human,3,13.213,5,1,16.797,8,,,,,,,False,not a P. falciparum protein group
+P52272,HNRNPM,Heterogeneous nuclear ribonucleoprotein M,human,3,13.174,7,1,16.781,8,,,,,,,False,not a P. falciparum protein group
+P09874,PARP1,Poly [ADP-ribose] polymerase 1,human,3,12.152,5,1,16.606,4,,,,,,,False,not a P. falciparum protein group
+P14625,HSP90B1,Endoplasmin,human,3,14.342,11,2,14.188,7,,,,,,,False,not a P. falciparum protein group
+Q6ZMA8,PF3D7_0406100,V-type proton ATPase subunit B,P. falciparum,3,13.978,6,3,11.489,4,-2.48899623765068,12.7338075668178,-6.971602102156,1.31609194891223e-05,0.000212895655454905,-3.31713227409184,True,
+P38646,HSPA9,"Stress-70 protein, mitochondrial",human,3,13.626,10,1,17.192,8,,,,,,,False,not a P. falciparum protein group
+Q9NZT1,CALML5,Calmodulin-like protein 5,human,3,15.199,10,3,16.864,9,,,,,,,False,not a P. falciparum protein group
+P23396,RPS3,40S ribosomal protein S3,human,3,13.338,11,1,16.767,6,,,,,,,False,not a P. falciparum protein group
+P22528;P35321,SPRR1B,Cornifin-B;Cornifin-A,human,3,15.478,5,3,16.346,6,,,,,,,False,not a P. falciparum protein group
+Q15084,PDIA6,Protein disulfide-isomerase A6,human,3,13.541,6,1,16.992,4,,,,,,,False,not a P. falciparum protein group
+Q8IFP2,PF3D7_0422400,40S ribosomal protein S19,P. falciparum,3,14.206,7,3,15.492,9,1.28686764730731,14.8490002931539,4.59305927286252,0.000581800671355462,0.00304589763239036,0.458731610866147,True,
+A0A144A3N9;Q8ILW9,PF3D7_1412500,Actin II;Actin-2,P. falciparum,3,15.074,5,1,16.424,1,,,,,,,False,fewer than 3 observations in pulldown
+P13639,EEF2,Elongation factor 2,human,3,15.002,17,3,15.301,13,,,,,,,False,not a P. falciparum protein group
+C6KT19,PF3D7_0617900,Histone H3,P. falciparum,3,13.597,9,3,11.906,4,-1.69071014410181,12.7517494859471,-5.30870089693887,0.000171374798430217,0.00169470634003215,-2.51884618054298,True,
+P30101,PDIA3,Protein disulfide-isomerase A3,human,3,12.721,9,1,15.529,3,,,,,,,False,not a P. falciparum protein group
+Q8IEM3,PF3D7_1309100,"60S ribosomal protein L24, putative",P. falciparum,3,14.033,12,3,14.184,11,0.151687526310555,14.1085545907086,0.526986591806909,0.607585455247917,0.722099159316362,-0.676448510130603,True,
+P78371,CCT2,T-complex protein 1 subunit beta,human,3,11.883,4,1,16.687,8,,,,,,,False,not a P. falciparum protein group
+P00338,LDHA,L-lactate dehydrogenase A chain,human,3,14.998,16,2,15.971,8,,,,,,,False,not a P. falciparum protein group
+Q8IKM5,PF3D7_1460700,60S ribosomal protein L27,P. falciparum,3,14.128,10,3,14.159,5,0.031472311993447,14.1433320563004,0.0886231152552914,0.930809407845144,0.952207325266872,-0.796663724447715,True,
+Q8IJW4,PF3D7_1007900,Eukaryotic translation initiation factor 3 subunit D,P. falciparum,3,13.973,14,2,13.705,4,,,,,,,False,fewer than 3 observations in pulldown
+P60174,TPI1,Triosephosphate isomerase,human,3,15.223,16,3,15.125,11,,,,,,,False,not a P. falciparum protein group
+Q8IL88,PF3D7_1437900,"HSP40, subfamily A, putative",P. falciparum,3,14.291,17,3,13.907,8,-0.383826824278273,14.0990484296389,-0.931240958915643,0.369663752935493,0.548334566854315,-1.21196286071944,True,
+A8K2U0,A2ML1,Alpha-2-macroglobulin-like protein 1,human,3,14.833,28,2,13.928,6,,,,,,,False,not a P. falciparum protein group
+Q8IIU3,PF3D7_1106000,RuvB-like helicase,P. falciparum,3,14.678,8,2,14.049,5,,,,,,,False,fewer than 3 observations in pulldown
+P07384,CAPN1,Calpain-1 catalytic subunit,human,3,14.792,13,3,13.45,6,,,,,,,False,not a P. falciparum protein group
+Q08554,DSC1,Desmocollin-1,human,3,15.68,19,3,15.69,18,,,,,,,False,not a P. falciparum protein group
+Q8I502,PF3D7_1242700,"40S ribosomal protein S17, putative",P. falciparum,3,13.646,13,3,13.313,7,-0.332848668676213,13.4795387891636,-1.01171592998466,0.331180701453607,0.517106709287212,-1.16098470511738,True,
+Q8ID85,PF3D7_1362200,RuvB-like helicase,P. falciparum,3,13.839,11,1,13.611,3,,,,,,,False,fewer than 3 observations in pulldown
+P50990,CCT8,T-complex protein 1 subunit theta,human,3,13.493,6,1,16.897,10,,,,,,,False,not a P. falciparum protein group
+P30048,PRDX3,"Thioredoxin-dependent peroxide reductase, mitochondrial",human,3,13.162,6,1,16.95,3,,,,,,,False,not a P. falciparum protein group
+P47929,LGALS7,Galectin-7,human,3,16.225,12,3,15.305,9,,,,,,,False,not a P. falciparum protein group
+Q8I546,PF3D7_1237700,Uncharacterized protein,P. falciparum,3,13.65,5,3,13.777,3,0.127249070202813,13.7136913016636,0.401394169862664,0.695022601440251,0.783000145926359,-0.700886966238354,True,
+P04075,ALDOA,Fructose-bisphosphate aldolase A,human,3,14.928,28,2,17.742,27,,,,,,,False,not a P. falciparum protein group
+Q8IIB4,PF3D7_1124900,"60S ribosomal protein L35, putative",P. falciparum,3,13.396,3,2,12.205,2,,,,,,,False,fewer than 3 observations in pulldown
+Q8IDS6,PF3D7_1341200,60S ribosomal protein L18a,P. falciparum,3,13.632,5,3,13.253,4,-0.378596064090825,13.4422266057571,-1.33440762363132,0.206270609366563,0.377041513933887,-1.20673210053199,True,
+Q8I6T1,PF45/48,Gametocyte surface protein P45/48,P. falciparum,3,13.67,11,3,12.511,3,-1.15865906184608,13.0902706134972,-2.97731645529598,0.0112815566663314,0.0371873534556851,-1.98679509828725,True,
+Q8IM26,PF3D7_1406800,Glideosome associated protein with multiple membrane spans 3,P. falciparum,3,13.781,5,2,12.246,2,,,,,,,False,fewer than 3 observations in pulldown
+Q7KQK3;Q9GUX2,PF3D7_1211400,Heat shock protein DNAJ homologue Pfj4;Heat shock protein DnaJ homologue Pfj4,P. falciparum,3,13.329,7,2,13.103,2,,,,,,,False,fewer than 3 observations in pulldown
+Q8IIU8,PF3D7_1105400,40S ribosomal protein S4,P. falciparum,3,13.843,9,3,13.609,9,-0.234471131933823,13.7257899423984,-0.774156824645301,0.453475521086446,0.602377930995428,-1.06260716837498,True,
+Q8I2X3,PF3D7_0918000,Glideosome-associated protein 50,P. falciparum,3,13.075,12,2,12.708,4,,,,,,,False,fewer than 3 observations in pulldown
+P05388,RPLP0,60S acidic ribosomal protein P0,human,3,12.162,8,1,16.511,4,,,,,,,False,not a P. falciparum protein group
+Q8I2X4,PF3D7_0917900,Heat shock protein 70,P. falciparum,3,13.97,20,2,11.269,3,,,,,,,False,fewer than 3 observations in pulldown
+Q8IL89,PF3D7_1437700,"Succinyl-CoA ligase, putative",P. falciparum,3,13.703,9,2,13.074,4,,,,,,,False,fewer than 3 observations in pulldown
+P31944,CASP14,Caspase-14,human,3,14.927,13,3,15.071,11,,,,,,,False,not a P. falciparum protein group
+P50991,CCT4,T-complex protein 1 subunit delta,human,3,11.491,4,1,16.935,8,,,,,,,False,not a P. falciparum protein group
+P62888,RPL30,60S ribosomal protein L30,human,3,12.501,5,1,16.146,1,,,,,,,False,not a P. falciparum protein group
+Q8IB51,PF3D7_0821700,"60S ribosomal protein L22, putative",P. falciparum,3,13.211,3,3,14.515,3,1.30357248030324,13.8628068233322,3.72822750504434,0.00277277137517788,0.0109679911275568,0.475436443862078,True,
+P55072,VCP,Transitional endoplasmic reticulum ATPase,human,3,13.799,16,2,13.724,7,,,,,,,False,not a P. falciparum protein group
+P22532,SPRR2D,Small proline-rich protein 2D,human,3,15.173,9,3,16.259,6,,,,,,,False,not a P. falciparum protein group
+Q15517,CDSN,Corneodesmosin,human,3,15.863,11,3,15.634,12,,,,,,,False,not a P. falciparum protein group
+Q8I3R6,PF3D7_0519400,40S ribosomal protein S24,P. falciparum,3,13.724,7,3,14.311,6,0.58747933399451,14.0173883831281,1.86604918400184,0.0860754096698757,0.186846620990706,-0.240656702446653,True,
+Q8I6T2,PF3D7_1345700,Isocitrate dehydrogenase [NADP],P. falciparum,3,13.057,11,1,12.709,1,,,,,,,False,fewer than 3 observations in pulldown
+P35612,ADD2,Beta-adducin,human,3,13.483,6,3,11.85,3,,,,,,,False,not a P. falciparum protein group
+Q8IKS9,PF3D7_1455000,"Protein phosphatase PPM3, putative",P. falciparum,3,13.317,4,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P61626,LYZ,Lysozyme C,human,3,14.599,12,3,15.669,16,,,,,,,False,not a P. falciparum protein group
+O60361;P22392,NME2P1,Putative nucleoside diphosphate kinase;Nucleoside diphosphate kinase B,human,3,13.094,6,1,15.728,1,,,,,,,False,not a P. falciparum protein group
+Q8IDV1,PF3D7_1338200,"60S ribosomal protein L6-2, putative",P. falciparum,3,13.277,6,3,13.45,5,0.173232285259132,13.3635505560814,0.48854239951548,0.63376789401464,0.73253691645848,-0.654903751182026,True,
+P21281,ATP6V1B2,"V-type proton ATPase subunit B, brain isoform",human,3,13.815,9,0,,0,,,,,,,False,not a P. falciparum protein group
+P06396,GSN,Gelsolin,human,3,14.56,22,0,,0,,,,,,,False,not a P. falciparum protein group
+P31151,S100A7,Protein S100-A7,human,3,14.783,9,2,13.425,4,,,,,,,False,not a P. falciparum protein group
+Q9H4G4,GLIPR2,Golgi-associated plant pathogenesis-related protein 1,human,3,13.756,6,0,,0,,,,,,,False,not a P. falciparum protein group
+Q8IC12,PF3D7_0707700,"E3 ubiquitin-protein ligase, putative",P. falciparum,3,13.384,10,2,13.291,7,,,,,,,False,fewer than 3 observations in pulldown
+P11171,EPB41,Protein 4.1,human,3,13.138,11,0,,0,,,,,,,False,not a P. falciparum protein group
+P17987,TCP1,T-complex protein 1 subunit alpha,human,3,11.533,5,1,16.34,8,,,,,,,False,not a P. falciparum protein group
+Q8IDN6,PF3D7_1346100,Protein transport protein SEC61 subunit alpha,P. falciparum,3,12.979,6,3,11.207,5,-1.77267029473878,12.0929832690601,-4.22160928755334,0.0011263457597733,0.00527604066420125,-2.60080633117994,True,
+Q00839,HNRNPU,Heterogeneous nuclear ribonucleoprotein U,human,3,12.988,8,1,17.064,11,,,,,,,False,not a P. falciparum protein group
+Q8I3T8,PF3D7_0517000,"60S ribosomal protein L12, putative",P. falciparum,3,13.2,8,3,12.689,6,-0.51142765584332,12.944443892029,-1.73426713005726,0.107862233261125,0.228565208577146,-1.33956369228448,True,
+Q8IKW5,PF3D7_1451100,Elongation factor 2,P. falciparum,3,13.556,15,3,12.086,4,-1.47004227577325,12.8212091434319,-4.01071840956451,0.0016505341689074,0.00734487705163793,-2.29817831221441,True,
+Q8II23,PF3D7_1134100,Protein disulfide isomerase,P. falciparum,2,12.909,2,1,11.01,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8IDI5,PF3D7_1351400,"60S ribosomal protein L17, putative",P. falciparum,3,12.871,6,3,12.435,4,-0.436186681419823,12.6531115596589,-1.17433753194539,0.262516010404792,0.449306248577433,-1.26432271786099,True,
+Q15149,PLEC,Plectin,human,3,15.105,36,3,14.806,6,,,,,,,False,not a P. falciparum protein group
+Q8I3V8,PF3D7_0515000,"Pre-mRNA-splicing factor CWC2, putative",P. falciparum,3,13.673,9,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8IDH5,PF3D7_1352500,"Thioredoxin-related protein, putative",P. falciparum,3,12.303,4,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P62857,RPS28,40S ribosomal protein S28,human,3,12.193,3,1,15.678,1,,,,,,,False,not a P. falciparum protein group
+Q8IL80,PF3D7_1438900,Thioredoxin peroxidase 1,P. falciparum,3,12.837,4,1,12.995,2,,,,,,,False,fewer than 3 observations in pulldown
+O75390,CS,"Citrate synthase, mitochondrial",human,3,12.366,5,1,15.839,2,,,,,,,False,not a P. falciparum protein group
+P04792,HSPB1,Heat shock protein beta-1,human,3,15.063,16,3,13.381,7,,,,,,,False,not a P. falciparum protein group
+C0H469,PF3D7_0310300,"Phosphoglycerate mutase, putative",P. falciparum,3,13.409,13,3,14.347,14,0.937976467173975,13.8784193708096,2.9555206575755,0.0117527277353266,0.037356884587288,0.109840430732811,True,
+Q8I0V4,PF3D7_1222300,"Endoplasmin, putative",P. falciparum,3,13.36,17,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P38159;Q96E39,RBMX,"RNA-binding motif protein, X chromosome;RNA binding motif protein, X-linked-like-1",human,3,11.397,3,1,15.833,2,,,,,,,False,not a P. falciparum protein group
+P12956,XRCC6,X-ray repair cross-complementing protein 6,human,2,11.823,3,1,15.78,3,,,,,,,False,not a P. falciparum protein group
+P13010,XRCC5,X-ray repair cross-complementing protein 5,human,3,12.06,4,1,15.186,3,,,,,,,False,not a P. falciparum protein group
+Q92945,KHSRP,Far upstream element-binding protein 2,human,1,13.079,2,1,15.439,4,,,,,,,False,not a P. falciparum protein group
+P32119,PRDX2,Peroxiredoxin-2,human,3,14.554,15,3,15.436,12,,,,,,,False,not a P. falciparum protein group
+Q8I5V9,PF3D7_1208900,"Protein phosphatase, putative",P. falciparum,3,13.052,14,3,13.377,12,0.325145862497797,13.214282423387,1.10578496311998,0.289998734956264,0.486979007756746,-0.50299017394337,True,
+P51659,HSD17B4,Peroxisomal multifunctional enzyme type 2,human,3,12.34,7,1,15.278,5,,,,,,,False,not a P. falciparum protein group
+A0A143ZXE4;Q8IJ28,PF3D7_1038000.2,Antigen UB05,P. falciparum,3,12.433,5,2,13.317,3,,,,,,,False,fewer than 3 observations in pulldown
+Q8I328,PF3D7_0912400,"Alkaline phosphatase, putative",P. falciparum,2,12.586,3,3,13.408,6,,,,,,,False,fewer than 3 observations in control
+P18621,RPL17,60S ribosomal protein L17,human,3,11.238,3,1,14.69,1,,,,,,,False,not a P. falciparum protein group
+P50502;Q8IZP2,ST13,Hsc70-interacting protein;Putative protein FAM10A4,human,3,11.851,3,1,14.804,2,,,,,,,False,not a P. falciparum protein group
+Q13867,BLMH,Bleomycin hydrolase,human,3,13.574,7,3,13.909,7,,,,,,,False,not a P. falciparum protein group
+Q8I608,PF3D7_1203700,Nucleosome assembly protein,P. falciparum,3,12.437,6,3,12.707,5,0.270377680536697,12.5722399849435,0.812327481125163,0.432059426317496,0.602377930995428,-0.55775835590447,True,
+Q7K6A8;Q9BHN1,PF3D7_0512600,Ras-related protein Rab-1B;Putative GTPase,P. falciparum,3,12.719,8,1,11.551,1,,,,,,,False,fewer than 3 observations in pulldown
+P62820,RAB1A,Ras-related protein Rab-1A,human,3,13.429,6,1,15.419,2,,,,,,,False,not a P. falciparum protein group
+O96252,PF3D7_0217100,ATP synthase subunit alpha,P. falciparum,3,12.813,13,1,11.781,2,,,,,,,False,fewer than 3 observations in pulldown
+P30041,PRDX6,Peroxiredoxin-6,human,1,12.882,2,1,15.858,5,,,,,,,False,not a P. falciparum protein group
+P34897,SHMT2,"Serine hydroxymethyltransferase, mitochondrial",human,1,12.877,2,1,15.122,5,,,,,,,False,not a P. falciparum protein group
+P49591,SARS1,"Serine--tRNA ligase, cytoplasmic",human,3,12.003,3,1,15.086,1,,,,,,,False,not a P. falciparum protein group
+P28289,TMOD1,Tropomodulin-1,human,3,14.196,13,3,14.294,13,,,,,,,False,not a P. falciparum protein group
+Q8I2W3,PF3D7_0919000,Nucleosome assembly protein,P. falciparum,3,12.716,6,3,12.222,6,-0.494742145095241,12.4690877726127,-1.65220602467005,0.123796906204231,0.25623080586457,-1.3228781815364,True,
+P51991,HNRNPA3,Heterogeneous nuclear ribonucleoprotein A3,human,2,11.601,2,1,15.454,3,,,,,,,False,not a P. falciparum protein group
+Q8IDR9,PF3D7_1342000,40S ribosomal protein S6,P. falciparum,3,13.045,6,3,13.285,6,0.240779121859584,13.1649257372696,0.800138949253792,0.438825402697444,0.602377930995428,-0.587356914581571,True,
+O75223,GGCT,Gamma-glutamylcyclotransferase,human,3,14.156,13,3,15.077,11,,,,,,,False,not a P. falciparum protein group
+Q8IHN7,PF3D7_1148700,Uncharacterized protein,P. falciparum,3,12.539,4,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P62241,RPS8,40S ribosomal protein S8,human,3,10.613,5,1,15.877,4,,,,,,,False,not a P. falciparum protein group
+P05090,APOD,Apolipoprotein D,human,3,13.959,6,3,13.473,5,,,,,,,False,not a P. falciparum protein group
+P43243,MATR3,Matrin-3,human,2,11.472,2,1,15.796,4,,,,,,,False,not a P. falciparum protein group
+Q8IB73,PF3D7_0823900,Dicarboxylate/tricarboxylate carrier,P. falciparum,3,11.605,5,2,10.886,3,,,,,,,False,fewer than 3 observations in pulldown
+Q8ILI2,PF3D7_1428300,"Proliferation-associated protein 2g4, putative",P. falciparum,2,13.155,8,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q99623,PHB2,Prohibitin-2,human,1,12.742,6,1,16.313,5,,,,,,,False,not a P. falciparum protein group
+Q8IES0,PF3D7_1304500,"Small heat shock protein, putative",P. falciparum,3,12.664,5,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8IBA0,PF3D7_0826700,Receptor for activated c kinase,P. falciparum,3,11.686,4,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P0DOY2;P0DOY3,IGLC2,Immunoglobulin lambda constant 2;Immunoglobulin lambda constant 3,human,3,14.668,9,3,13.3,3,,,,,,,False,not a P. falciparum protein group
+P01876,IGHA1,Immunoglobulin heavy constant alpha 1,human,3,14.065,9,2,14.545,5,,,,,,,False,not a P. falciparum protein group
+Q8ILJ9,PF3D7_1426500,ABC transporter G family member 2,P. falciparum,3,12.447,7,1,11.39,1,,,,,,,False,fewer than 3 observations in pulldown
+O75367,MACROH2A1,Core histone macro-H2A.1,human,3,13.133,5,1,14.991,3,,,,,,,False,not a P. falciparum protein group
+P01857,IGHG1,Immunoglobulin heavy constant gamma 1,human,2,16.022,3,3,13.056,3,,,,,,,False,not a P. falciparum protein group
+Q76NM3,PF3D7_1324900,L-lactate dehydrogenase,P. falciparum,3,13.709,5,2,12.817,2,,,,,,,False,fewer than 3 observations in pulldown
+Q8ILL3,PF3D7_1424100,"60S ribosomal protein L5, putative",P. falciparum,3,12.899,8,3,13.32,7,0.420753769829776,13.1091246981065,1.4344869199636,0.176389662392902,0.341275651151484,-0.407382266611384,True,
+P08758,ANXA5,Annexin A5,human,2,12.862,4,1,15.33,3,,,,,,,False,not a P. falciparum protein group
+Q15758,SLC1A5,Neutral amino acid transporter B(0),human,2,11.472,2,1,14.199,1,,,,,,,False,not a P. falciparum protein group
+Q12905,ILF2,Interleukin enhancer-binding factor 2,human,1,12.59,1,1,15.221,2,,,,,,,False,not a P. falciparum protein group
+Q8II24,PF3D7_1134000,Heat shock protein 70,P. falciparum,2,12.462,4,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+P46782,RPS5,40S ribosomal protein S5,human,3,13.284,5,3,14.255,6,,,,,,,False,not a P. falciparum protein group
+Q8IDB0,PF3D7_1358800,40S ribosomal protein S15,P. falciparum,3,13.12,3,3,13.034,3,-0.0865337815506511,13.0769223635278,-0.237797292481593,0.815957069779615,0.874941918197418,-0.914669817991809,True,
+Q8IAW0,PF3D7_0812400,Importin subunit alpha,P. falciparum,3,12.89,4,1,10.807,1,,,,,,,False,fewer than 3 observations in pulldown
+O60506,SYNCRIP,Heterogeneous nuclear ribonucleoprotein Q,human,3,11.234,3,1,14.69,1,,,,,,,False,not a P. falciparum protein group
+Q7KQK6,PF3D7_1117700,GTP-binding nuclear protein,P. falciparum,3,13.161,12,2,12.123,2,,,,,,,False,fewer than 3 observations in pulldown
+O77349,PF3D7_0311800,Uncharacterized protein,P. falciparum,3,12.036,7,3,12.432,6,0.396559236614637,12.2339315081079,1.07307584909165,0.303858129078305,0.491697699781257,-0.431576799826521,True,
+Q08211,DHX9,ATP-dependent RNA helicase A,human,3,11.331,4,1,15.928,5,,,,,,,False,not a P. falciparum protein group
+P45880,VDAC2,Voltage-dependent anion-selective channel protein 2,human,2,12.898,7,1,15.52,2,,,,,,,False,not a P. falciparum protein group
+O97231,RPL44,60S ribosomal protein L44,P. falciparum,3,12.583,9,2,12.779,5,,,,,,,False,fewer than 3 observations in pulldown
+P02545,LMNA,Prelamin-A/C,human,3,15.107,36,3,14.369,7,,,,,,,False,not a P. falciparum protein group
+P35232,PHB,Prohibitin,human,3,12.875,8,3,13.561,8,,,,,,,False,not a P. falciparum protein group
+Q8IKC8,PF3D7_1471100,Exported protein 2,P. falciparum,3,12.727,5,3,14.436,7,1.70919741104712,13.5813136932239,5.01180696284786,0.000282165188765337,0.00219235369736739,0.881061374605956,True,
+Q8IDB7,PF3D7_1359400,CUGBP Elav-like family member 1,P. falciparum,3,13.055,17,2,13.122,3,,,,,,,False,fewer than 3 observations in pulldown
+Q8IKQ9,PF3D7_1457000,Signal peptide peptidase,P. falciparum,3,11.78,3,2,11.131,2,,,,,,,False,fewer than 3 observations in pulldown
+Q8I3M1,PF3D7_0524400,"Ribosome-interacting GTPase 1, putative",P. falciparum,3,11.675,7,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+C6KST4,PF3D7_0608600,Uncharacterized protein,P. falciparum,2,12.518,6,1,11.582,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8IJP8,PF3D7_1014700,"Prohibitin, putative",P. falciparum,3,12.519,11,3,13.269,11,0.750142283445559,12.8940558072274,2.09765473919975,0.0572550837091051,0.137874646516695,-0.0779937529955994,True,
+C6KSV0,PF3D7_0610400,Histone H3,P. falciparum,3,11.875,5,3,13.663,9,1.78824705851907,12.7686953137587,4.79112481478557,0.000411970082923036,0.00244435582534335,0.9601110220779,True,
+C6S3D1,PF3D7_1018500,"PHF5-like protein, putative",P. falciparum,3,12.975,6,3,12.672,5,-0.303764151768441,12.8235625072829,-0.954048650121608,0.358450273787425,0.540713124865777,-1.1319001882096,True,
+O43175,PHGDH,D-3-phosphoglycerate dehydrogenase,human,3,12.121,5,1,14.781,7,,,,,,,False,not a P. falciparum protein group
+Q8IIH4,PF3D7_1119300,"Splicing factor U2AF small subunit, putative",P. falciparum,3,12.399,4,3,12.494,5,0.0952933901135147,12.4466863382161,0.326511010009349,0.74953179255193,0.833854119214022,-0.732842646327647,True,
+P00505,GOT2,"Aspartate aminotransferase, mitochondrial",human,3,12.056,7,1,15.806,4,,,,,,,False,not a P. falciparum protein group
+P53396,ACLY,ATP-citrate synthase,human,2,11.205,3,1,15.19,4,,,,,,,False,not a P. falciparum protein group
+Q9U0J0,PF3D7_0409600,"Replication protein A1, large subunit",P. falciparum,3,12.173,3,2,13.345,2,,,,,,,False,fewer than 3 observations in pulldown
+P04843,RPN1,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 1,human,1,12.347,1,1,15.536,5,,,,,,,False,not a P. falciparum protein group
+C6KT34,PF3D7_0619400,"Cell division cycle protein 48 homologue,putative",P. falciparum,3,12.714,6,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q7K6A5,PF3D7_0523000,Multidrug resistance protein 1,P. falciparum,3,12.049,5,1,10.657,1,,,,,,,False,fewer than 3 observations in pulldown
+Q7K6B0,PF3D7_0807300,Ras-related protein Rab-18,P. falciparum,2,12.409,4,2,10.68,2,,,,,,,False,fewer than 3 observations in both conditions
+P62826,RAN,GTP-binding nuclear protein Ran,human,3,12.854,3,1,14.499,2,,,,,,,False,not a P. falciparum protein group
+C0H5C2,PF3D7_1317800,40S ribosomal protein S19,P. falciparum,3,12.379,4,3,12.535,4,0.155798612486084,12.4569254735097,0.547674456097146,0.593723922496071,0.722099159316362,-0.672337423955083,True,
+Q8II43,PF3D7_1132200,T-complex protein 1 subunit alpha,P. falciparum,3,12.543,6,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P08238,HSP90AB1,Heat shock protein HSP 90-beta,human,3,12.972,10,1,15.724,7,,,,,,,False,not a P. falciparum protein group
+Q8I1V0,PF3D7_0413700,"Lysine decarboxylase-like protein, putative",P. falciparum,3,12.222,8,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+O60814,H2BC12,Histone H2B type 1-K,human,3,11.557,4,1,14.9,1,,,,,,,False,not a P. falciparum protein group
+P46781,RPS9,40S ribosomal protein S9,human,2,12.706,4,1,14.813,4,,,,,,,False,not a P. falciparum protein group
+Q8I253,PF3D7_0109000,"Photosensitized INA-labeled protein PHIL1,putative",P. falciparum,3,12.152,6,1,10.767,2,,,,,,,False,fewer than 3 observations in pulldown
+Q8IKG9,PF3D7_1466800,Uncharacterized protein,P. falciparum,3,11.87,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8IIX5,PF3D7_1102500,Uncharacterized protein,P. falciparum,3,11.552,5,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P29401,TKT,Transketolase,human,1,12.107,5,1,15.304,2,,,,,,,False,not a P. falciparum protein group
+P17900,GM2A,Ganglioside GM2 activator,human,3,12.649,4,2,12.574,2,,,,,,,False,not a P. falciparum protein group
+P02768,ALB,Albumin,human,3,14.916,18,3,14.278,12,,,,,,,False,not a P. falciparum protein group
+P40925,MDH1,"Malate dehydrogenase, cytoplasmic",human,2,12.065,4,1,14.589,2,,,,,,,False,not a P. falciparum protein group
+Q07021,C1QBP,"Complement component 1 Q subcomponent-binding protein, mitochondrial",human,3,10.803,4,1,14.145,2,,,,,,,False,not a P. falciparum protein group
+P14174,MIF,Macrophage migration inhibitory factor,human,2,12.377,4,1,15.511,3,,,,,,,False,not a P. falciparum protein group
+Q25999;Q76NM4,rab11,Small GTPase rab11;Ras-related protein Rab-11A,P. falciparum,3,11.908,6,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8IHT7,PF3D7_1142800,Uncharacterized protein,P. falciparum,3,11.871,3,3,11.873,3,0.00179497798167638,11.8722120370817,0.00651961477267901,0.994902785194501,0.994902785194501,-0.826341058459482,True,
+P62491;Q15907,RAB11A,Ras-related protein Rab-11A;Ras-related protein Rab-11B,human,3,12.477,9,1,15.99,2,,,,,,,False,not a P. falciparum protein group
+P06702,S100A9,Protein S100-A9,human,3,14.095,11,2,14.048,6,,,,,,,False,not a P. falciparum protein group
+Q8IK83,PF3D7_1475500,LCCL domain-containing protein,P. falciparum,3,11.499,4,2,12.074,5,,,,,,,False,fewer than 3 observations in pulldown
+P49327,FASN,Fatty acid synthase,human,1,11.949,2,1,15.913,8,,,,,,,False,not a P. falciparum protein group
+P18124,RPL7,60S ribosomal protein L7,human,2,12.464,2,1,15.615,2,,,,,,,False,not a P. falciparum protein group
+Q92499,DDX1,ATP-dependent RNA helicase DDX1,human,2,10.54,2,1,15.182,3,,,,,,,False,not a P. falciparum protein group
+Q13151,HNRNPA0,Heterogeneous nuclear ribonucleoprotein A0,human,1,11.923,1,1,14.894,2,,,,,,,False,not a P. falciparum protein group
+P17844,DDX5,Probable ATP-dependent RNA helicase DDX5,human,2,11.495,4,1,15.636,7,,,,,,,False,not a P. falciparum protein group
+P20618,PSMB1,Proteasome subunit beta type-1,human,3,12.71,5,1,13.079,2,,,,,,,False,not a P. falciparum protein group
+Q8IHT9,PF3D7_1142600,"60S ribosomal protein L35ae, putative",P. falciparum,3,11.919,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8IAU1,PF3D7_0810600,"ATP-dependent RNA helicase DBP1, putative",P. falciparum,2,11.915,3,1,11.223,1,,,,,,,False,fewer than 3 observations in both conditions
+P00492,HPRT1,Hypoxanthine-guanine phosphoribosyltransferase,human,2,10.463,2,1,14.626,1,,,,,,,False,not a P. falciparum protein group
+Q9Y265,RUVBL1,RuvB-like 1,human,1,11.869,1,1,14.459,2,,,,,,,False,not a P. falciparum protein group
+P61981,YWHAG,14-3-3 protein gamma,human,3,13.066,7,0,,0,,,,,,,False,not a P. falciparum protein group
+Q8IJX8,PF3D7_1006200,DNA/RNA-binding protein Alba 3,P. falciparum,2,11.497,3,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+B9ZSJ2,PF3D7_0114000,Exported protein family 1,P. falciparum,2,11.658,3,1,9.498,1,,,,,,,False,fewer than 3 observations in both conditions
+P48594,SERPINB4,Serpin B4,human,2,14.919,8,3,12.006,3,,,,,,,False,not a P. falciparum protein group
+Q8IDQ6,PF3D7_1343300,Uncharacterized protein,P. falciparum,1,11.799,1,1,10.815,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8I542,PF3D7_1238100,"Calcyclin binding protein, putative",P. falciparum,3,11.296,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8IKR1,PF3D7_1456800,"V-type H(+)-translocating pyrophosphatase,putative",P. falciparum,2,11.526,3,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+C0H5L9;Q6V0W7,PF3D7_1370300,Membrane associated histidine-rich protein;Membrane-associated histidine-rich protein,P. falciparum,2,11.677,2,3,13.646,3,,,,,,,False,fewer than 3 observations in control
+P67936,TPM4,Tropomyosin alpha-4 chain,human,3,12.591,10,2,13.12,4,,,,,,,False,not a P. falciparum protein group
+P49368,CCT3,T-complex protein 1 subunit gamma,human,3,13.115,7,3,15.395,9,,,,,,,False,not a P. falciparum protein group
+P30153;P30154,PPP2R1A,Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A alpha isoform;Serine/threonine-protein phosphatase 2A 65 kDa regulatory subunit A beta isoform,human,1,11.665,1,1,13.934,1,,,,,,,False,not a P. falciparum protein group
+O97250,PF3D7_0307200,"60S ribosomal protein L7, putative",P. falciparum,3,11.077,3,3,11.115,3,0.0380981533725837,11.0964506563131,0.0675209236471869,0.947253213256956,0.958017454316694,-0.790037883068578,True,
+Q8I3N3,PF3D7_0523100,"Mitochondrial processing peptidase alpha subunit, putative",P. falciparum,2,11.238,2,2,9.903,2,,,,,,,False,fewer than 3 observations in both conditions
+P28072,PSMB6,Proteasome subunit beta type-6,human,3,13.572,7,3,13.407,5,,,,,,,False,not a P. falciparum protein group
+C0H4M6,PF3D7_0711500,"Regulator of chromosome condensation, putative",P. falciparum,3,11.817,5,3,12.232,4,0.415765138625424,12.0244667159163,1.04329826936548,0.316900808059407,0.503645927094415,-0.412370897815736,True,
+C0H4K8,PF3D7_0705700,"40S ribosomal protein S29, putative",P. falciparum,3,12.56,4,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+C6KT18,PF3D7_0617800,Histone H2A,P. falciparum,3,12.412,3,3,12.484,3,0.0717191640223085,12.4482451596751,0.122117270016742,0.904780512230132,0.936342623121881,-0.756416872418855,True,
+O75955,FLOT1,Flotillin-1,human,2,11.352,5,0,,0,,,,,,,False,not a P. falciparum protein group
+Q8I5H4,PF3D7_1224300,Polyadenylate-binding protein,P. falciparum,3,11.665,7,2,11.324,2,,,,,,,False,fewer than 3 observations in pulldown
+C6KTB9,PF3D7_0628300.1,"Choline/ethanolaminephosphotransferase,putative",P. falciparum,2,11.496,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8ILA1,PF3D7_1436300,Translocon component PTEX150,P. falciparum,3,11.603,5,3,12.441,8,0.837804176527497,12.0223710564616,2.37743056593167,0.0344794318190308,0.0876762694826784,0.00966814008633321,True,
+Q8I3T5,PF3D7_0517300,Serine/arginine-rich splicing factor 1,P. falciparum,3,11.918,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P62277,RPS13,40S ribosomal protein S13,human,2,13.256,3,1,14.714,3,,,,,,,False,not a P. falciparum protein group
+Q8I5X5,PF3D7_1207000,Uncharacterized protein,P. falciparum,3,12.176,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q8ILK3,PF3D7_1426000,60S ribosomal protein L21,P. falciparum,3,12.14,5,3,12.855,5,0.71530952955724,12.4972565770061,1.99718910131401,0.0684395621938761,0.156182590647563,-0.112826506883922,True,
+Q8IL58,PF3D7_1441200,"60S ribosomal protein L1, putative",P. falciparum,3,11.948,5,3,12.783,5,0.835571365857112,12.3654118073303,2.65104851249741,0.020779847650634,0.0596582722873041,0.00743532941595326,True,
+P11021,HSPA5,Endoplasmic reticulum chaperone BiP,human,3,13.359,17,2,13.245,11,,,,,,,False,not a P. falciparum protein group
+P38606,ATP6V1A,V-type proton ATPase catalytic subunit A,human,3,12.953,5,0,,0,,,,,,,False,not a P. falciparum protein group
+A0A143ZYL5,PF3D7_1036900,Uncharacterized protein,P. falciparum,2,11.338,3,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q9UGL9,CRCT1,Cysteine-rich C-terminal protein 1,human,3,12.566,4,3,12.074,3,,,,,,,False,not a P. falciparum protein group
+P25789,PSMA4,Proteasome subunit alpha type-4,human,3,13.197,6,2,13.224,5,,,,,,,False,not a P. falciparum protein group
+Q13724,MOGS,Mannosyl-oligosaccharide glucosidase,human,1,11.385,1,1,14.061,1,,,,,,,False,not a P. falciparum protein group
+Q8I302,PF3D7_0915000,Type II NADH:ubiquinone oxidoreductase,P. falciparum,2,11.498,3,2,11.257,2,,,,,,,False,fewer than 3 observations in both conditions
+Q8IBQ5,PF3D7_0719700,"40S ribosomal protein S10, putative",P. falciparum,3,11.707,4,1,10.354,2,,,,,,,False,fewer than 3 observations in pulldown
+P50395,GDI2,Rab GDP dissociation inhibitor beta,human,2,11.133,3,1,14.14,2,,,,,,,False,not a P. falciparum protein group
+C0H4Y6,PF3D7_0827900,Protein disulfide-isomerase,P. falciparum,3,11.056,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P55060,CSE1L,Exportin-2,human,1,11.309,1,1,14.006,1,,,,,,,False,not a P. falciparum protein group
+P12004,PCNA,Proliferating cell nuclear antigen,human,1,11.286,1,1,14.107,1,,,,,,,False,not a P. falciparum protein group
+Q6ZMA7,PF3D7_0406200,Sexual stage-specific protein,P. falciparum,2,10.796,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q00325,SLC25A3,"Phosphate carrier protein, mitochondrial",human,1,11.243,2,1,15.007,1,,,,,,,False,not a P. falciparum protein group
+Q6UWP8,SBSN,Suprabasin,human,3,12.794,8,2,13.485,2,,,,,,,False,not a P. falciparum protein group
+O97306,PF3D7_0323800,Uncharacterized protein,P. falciparum,3,11.377,4,1,12.057,2,,,,,,,False,fewer than 3 observations in pulldown
+Q9BPU6,DPYSL5,Dihydropyrimidinase-related protein 5,human,3,12.11,3,2,11.886,2,,,,,,,False,not a P. falciparum protein group
+Q8II95,PF3D7_1126800,"RNA-binding protein, putative",P. falciparum,3,11.611,5,2,11.268,4,,,,,,,False,fewer than 3 observations in pulldown
+P00915,CA1,Carbonic anhydrase 1,human,3,11.623,5,0,,0,,,,,,,False,not a P. falciparum protein group
+O75342,ALOX12B,"Arachidonate 12-lipoxygenase, 12R-type",human,3,13.315,13,3,13.059,7,,,,,,,False,not a P. falciparum protein group
+P34932,HSPA4,Heat shock 70 kDa protein 4,human,1,11.136,2,1,14.451,3,,,,,,,False,not a P. falciparum protein group
+Q96CX2,KCTD12,BTB/POZ domain-containing protein KCTD12,human,2,9.622,2,1,13.952,1,,,,,,,False,not a P. falciparum protein group
+A0A0S2ZYG3;A0A0S2ZYG4;A0A0S2ZYJ8;A0A0S2ZYJ9;A0A0S2ZYM3;A0A0S2ZYN4;A0A0S2ZYQ2;A0A0S2ZYQ3;A0A0S2ZZ09;A0A0S2ZZ45;Q8IDN0,Pfs47,6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);6-cysteine protein (Fragment);Female gametocyte surface protein P47,P. falciparum,2,10.826,4,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+E9PAV3;Q13765,NACA,"Nascent polypeptide-associated complex subunit alpha, muscle-specific form;Nascent polypeptide-associated complex subunit alpha",human,3,10.349,4,1,14.721,3,,,,,,,False,not a P. falciparum protein group
+Q8IJZ7,PF3D7_1004000,"60S ribosomal protein L13, putative",P. falciparum,2,11.626,4,2,11.752,3,,,,,,,False,fewer than 3 observations in both conditions
+P52209,PGD,"6-phosphogluconate dehydrogenase, decarboxylating",human,2,10.264,4,1,14.387,2,,,,,,,False,not a P. falciparum protein group
+O14979,HNRNPDL,Heterogeneous nuclear ribonucleoprotein D-like,human,1,11.098,1,1,14.204,3,,,,,,,False,not a P. falciparum protein group
+Q8I0W8,PF3D7_0513600,"Deoxyribodipyrimidine photo-lyase, putative",P. falciparum,2,10.995,3,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+P55209,NAP1L1,Nucleosome assembly protein 1-like 1,human,3,10.297,3,1,12.272,1,,,,,,,False,not a P. falciparum protein group
+C0H4N8,PF3D7_0719200,NIMA related kinase 4,P. falciparum,3,11.948,7,1,10.87,1,,,,,,,False,fewer than 3 observations in pulldown
+P61204;P84077,ARF3,ADP-ribosylation factor 3;ADP-ribosylation factor 1,human,2,11.836,5,1,15.176,4,,,,,,,False,not a P. falciparum protein group
+Q14254,FLOT2,Flotillin-2,human,2,11.434,3,0,,0,,,,,,,False,not a P. falciparum protein group
+C6S3H7,PF3D7_1417900,Uncharacterized protein,P. falciparum,3,11.217,3,3,11.571,3,0.353503351652666,11.3939378340292,1.09105103742207,0.296181477301564,0.488150953330356,-0.474632684788494,True,
+C6KT23,PF3D7_0618300,"60S ribosomal protein L27a, putative",P. falciparum,2,11.402,3,2,10.795,4,,,,,,,False,fewer than 3 observations in both conditions
+Q12906,ILF3,Interleukin enhancer-binding factor 3,human,1,10.984,1,1,14.587,2,,,,,,,False,not a P. falciparum protein group
+P27362,PGK,Phosphoglycerate kinase,P. falciparum,2,11.151,5,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q7Z3Z3,PIWIL3,Piwi-like protein 3,human,3,10.961,3,3,12.983,3,,,,,,,False,not a P. falciparum protein group
+Q14152,EIF3A,Eukaryotic translation initiation factor 3 subunit A,human,1,10.895,1,1,14.793,2,,,,,,,False,not a P. falciparum protein group
+Q8IB92,PF3D7_0825900,Uncharacterized protein,P. falciparum,3,11.302,3,2,12.758,2,,,,,,,False,fewer than 3 observations in pulldown
+Q8I0V2,PF3D7_1235700,ATP synthase subunit beta,P. falciparum,2,10.901,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8I280,PF3D7_0106100,V-type proton ATPase subunit C,P. falciparum,2,10.881,3,2,11.037,2,,,,,,,False,fewer than 3 observations in both conditions
+Q8IEF0,PF3D7_1316500,"Pre-mRNA-processing factor 40, putative",P. falciparum,3,11.697,6,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q7KWJ5,PF3D7_0204700,Hexose transporter,P. falciparum,2,10.953,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q99832,CCT7,T-complex protein 1 subunit eta,human,2,11.966,2,1,14.155,4,,,,,,,False,not a P. falciparum protein group
+P06454,PTMA,Prothymosin alpha,human,1,10.815,1,1,13.448,1,,,,,,,False,not a P. falciparum protein group
+P25788,PSMA3,Proteasome subunit alpha type-3,human,3,12.365,7,2,12.064,6,,,,,,,False,not a P. falciparum protein group
+Q8IM64,PF3D7_1402500,"Ubiquitin-40S ribosomal protein S27a, putative",P. falciparum,3,11.158,3,1,12.514,1,,,,,,,False,fewer than 3 observations in pulldown
+P40429;Q6NVV1,RPL13A,60S ribosomal protein L13a;Putative 60S ribosomal protein L13a protein RPL13AP3,human,1,10.741,1,1,13.891,1,,,,,,,False,not a P. falciparum protein group
+P01766,IGHV3-13,Immunoglobulin heavy variable 3-13,human,3,13.009,4,3,14.079,3,,,,,,,False,not a P. falciparum protein group
+P28070,PSMB4,Proteasome subunit beta type-4,human,3,12.11,5,2,11.554,2,,,,,,,False,not a P. falciparum protein group
+A0A143ZWW4;P62344,PF3D7_0217500,Calcium-dependent protein kinase 1,P. falciparum,3,10.926,3,2,12.118,2,,,,,,,False,fewer than 3 observations in pulldown
+Q04837,SSBP1,"Single-stranded DNA-binding protein, mitochondrial",human,1,10.681,1,1,13.31,1,,,,,,,False,not a P. falciparum protein group
+P11279,LAMP1,Lysosome-associated membrane glycoprotein 1,human,3,12.047,5,2,11.902,4,,,,,,,False,not a P. falciparum protein group
+Q8IJT8,PF3D7_1010700,"Dolichyl-phosphate-mannose protein mannosyltransferase, putative",P. falciparum,3,11.476,4,3,13.537,8,2.06074603348895,12.5062358609501,4.98447884256933,0.000295598251330435,0.00219235369736739,1.23260999704779,True,
+Q8I3B0,PF3D7_0903900,60S ribosomal protein L32,P. falciparum,3,10.469,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+P27797,CALR,Calreticulin,human,1,10.625,3,1,15.139,1,,,,,,,False,not a P. falciparum protein group
+P0C0S5;Q71UI9,H2AZ1,Histone H2A.Z;Histone H2A.V,human,1,10.622,1,1,13.533,1,,,,,,,False,not a P. falciparum protein group
+P37108,SRP14,Signal recognition particle 14 kDa protein,human,1,10.62,1,1,14.126,1,,,,,,,False,not a P. falciparum protein group
+Q8IJR6,PF3D7_1012900,"Autophagy-related protein 18, putative",P. falciparum,1,10.598,1,1,11.52,1,,,,,,,False,fewer than 3 observations in both conditions
+P61224;P62834,RAP1B,Ras-related protein Rap-1b;Ras-related protein Rap-1A,human,3,10.735,3,1,11.257,1,,,,,,,False,not a P. falciparum protein group
+P26641,EEF1G,Elongation factor 1-gamma,human,2,12.325,6,1,14.785,3,,,,,,,False,not a P. falciparum protein group
+P62854,RPS26,40S ribosomal protein S26,human,2,12.433,3,1,14.343,3,,,,,,,False,not a P. falciparum protein group
+Q00341,HDLBP,Vigilin,human,1,10.386,2,1,13.855,2,,,,,,,False,not a P. falciparum protein group
+Q8I5I8,PF3D7_1222700,Glideosome-associated protein 45,P. falciparum,3,12.081,4,3,12.93,4,0.848294412904867,12.5056076791611,1.25081667087965,0.234293086525311,0.417041694015053,0.0201583764637085,True,
+P46776,RPL27A,60S ribosomal protein L27a,human,2,11.849,2,1,14.377,2,,,,,,,False,not a P. falciparum protein group
+P39656,DDOST,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit,human,2,11.817,3,1,14.635,2,,,,,,,False,not a P. falciparum protein group
+A0A143ZZ61;Q8IJN7,PF3D7_1015900,Enolase,P. falciparum,3,11.391,5,2,11.357,4,,,,,,,False,fewer than 3 observations in pulldown
+Q8IBY4,PF3D7_0710600,60S ribosomal protein L34,P. falciparum,3,11.345,3,3,11.714,3,0.369375383233301,11.5297115820462,0.775186911017043,0.452888839285662,0.602377930995428,-0.458760653207865,True,
+P62280,RPS11,40S ribosomal protein S11,human,1,10.144,4,1,15.3,1,,,,,,,False,not a P. falciparum protein group
+Q8IM16,PF3D7_1407800,Plasmepsin IV,P. falciparum,3,11.451,4,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q92598,HSPH1,Heat shock protein 105 kDa,human,1,10.013,1,1,14.271,5,,,,,,,False,not a P. falciparum protein group
+P30086,PEBP1,Phosphatidylethanolamine-binding protein 1,human,1,9.966,2,1,14.259,1,,,,,,,False,not a P. falciparum protein group
+Q8IBN4,PF3D7_0721700,"Secreted ookinete protein, putative",P. falciparum,2,10.029,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+P48163,ME1,NADP-dependent malic enzyme,human,3,11.343,4,0,,0,,,,,,,False,not a P. falciparum protein group
+Q8IE71,PF3D7_1324600,Uncharacterized protein,P. falciparum,3,9.847,3,1,9.194,1,,,,,,,False,fewer than 3 observations in pulldown
+Q07812,BAX,Apoptosis regulator BAX,human,1,9.759,1,1,12.753,1,,,,,,,False,not a P. falciparum protein group
+Q8IC01,PF3D7_0708800,Heat shock protein 110,P. falciparum,2,11.008,3,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q15029,EFTUD2,116 kDa U5 small nuclear ribonucleoprotein component,human,1,9.711,1,1,14.052,1,,,,,,,False,not a P. falciparum protein group
+P49189,ALDH9A1,4-trimethylaminobutyraldehyde dehydrogenase,human,1,9.687,2,1,13.099,1,,,,,,,False,not a P. falciparum protein group
+Q8IKF0,PF3D7_1468700,Eukaryotic initiation factor 4A,P. falciparum,3,10.713,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+Q14974,KPNB1,Importin subunit beta-1,human,1,9.659,2,1,13.619,2,,,,,,,False,not a P. falciparum protein group
+Q76NN6;Q8WT07,PF3D7_0419600,"Ran binding protein 1, putative;Ran-binding protein",P. falciparum,2,9.792,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8I2J3,PF3D7_0932300,M18 aspartyl aminopeptidase,P. falciparum,3,9.145,3,1,9.561,1,,,,,,,False,fewer than 3 observations in pulldown
+P07814,EPRS1,Bifunctional glutamate/proline--tRNA ligase,human,1,9.516,1,1,13.65,2,,,,,,,False,not a P. falciparum protein group
+Q14574,DSC3,Desmocollin-3,human,3,11.771,4,1,13.317,1,,,,,,,False,not a P. falciparum protein group
+P35268,RPL22,60S ribosomal protein L22,human,2,12.557,3,2,12.205,2,,,,,,,False,not a P. falciparum protein group
+P27824,CANX,Calnexin,human,3,10.573,4,1,12.625,4,,,,,,,False,not a P. falciparum protein group
+P62266,RPS23,40S ribosomal protein S23,human,1,9.344,2,1,13.663,1,,,,,,,False,not a P. falciparum protein group
+P60953,CDC42,Cell division control protein 42 homolog,human,1,9.323,2,1,11.726,1,,,,,,,False,not a P. falciparum protein group
+A0A144A2J9;Q8ILC1,PF3D7_1434300,Hsp70/Hsp90 organizing protein;STI1-like protein,P. falciparum,2,9.024,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q9Y230,RUVBL2,RuvB-like 2,human,1,9.17,1,1,13.23,2,,,,,,,False,not a P. falciparum protein group
+Q9ULV4,CORO1C,Coronin-1C,human,1,9.062,1,1,13.364,1,,,,,,,False,not a P. falciparum protein group
+P14866,HNRNPL,Heterogeneous nuclear ribonucleoprotein L,human,1,8.986,1,1,13.6,1,,,,,,,False,not a P. falciparum protein group
+P00558,PGK1,Phosphoglycerate kinase 1,human,3,12.886,7,3,13.628,8,,,,,,,False,not a P. falciparum protein group
+Q8I3W9,PF3D7_0513800,Ras-related protein Rab-1A,P. falciparum,2,9.292,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8IEJ6,PF3D7_1312600,2-oxoisovalerate dehydrogenase subunit alpha,P. falciparum,3,9.011,3,0,,0,,,,,,,False,fewer than 3 observations in pulldown
+C6KTB1,PF3D7_0627500,Protein DJ-1,P. falciparum,2,9.057,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+P24752,ACAT1,"Acetyl-CoA acetyltransferase, mitochondrial",human,1,8.656,1,1,11.989,1,,,,,,,False,not a P. falciparum protein group
+Q92522,H1-10,Histone H1.10,human,1,8.575,1,1,12.477,1,,,,,,,False,not a P. falciparum protein group
+Q8IDV0,PF3D7_1338300,"Elongation factor 1-gamma, putative",P. falciparum,2,8.483,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q9BYG3,NIFK,MKI67 FHA domain-interacting nucleolar phosphoprotein,human,1,8.403,1,1,12.546,1,,,,,,,False,not a P. falciparum protein group
+P49411,TUFM,"Elongation factor Tu, mitochondrial",human,3,8.556,4,1,10.557,4,,,,,,,False,not a P. falciparum protein group
+A8MTJ3;P04899;P08754;P09471;P11488;P19087;P38405;P63092;P63096;Q5JWF2,GNAT3,Guanine nucleotide-binding protein G(t) subunit alpha-3;Guanine nucleotide-binding protein G(i) subunit alpha-2;Guanine nucleotide-binding protein G(i) subunit alpha-3;Guanine nucleotide-binding protein G(o) subunit alpha;Guanine nucleotide-binding protein G(t) subunit alpha-1;Guanine nucleotide-binding protein G(t) subunit alpha-2;Guanine nucleotide-binding protein G(olf) subunit alpha;Guanine nucleotide-binding protein G(s) subunit alpha isoforms short;Guanine nucleotide-binding protein G(i) subunit alpha-1;Guanine nucleotide-binding protein G(s) subunit alpha isoforms XLas,human,2,9.982,2,1,11.265,1,,,,,,,False,not a P. falciparum protein group
+A8MWD9;P62308,SNRPGP15,Putative small nuclear ribonucleoprotein G-like protein 15;Small nuclear ribonucleoprotein G,human,1,12.466,1,1,12.452,3,,,,,,,False,not a P. falciparum protein group
+C6KSP9,PF3D7_0605100,"RNA-binding protein, putative",P. falciparum,1,10.488,2,1,9.502,1,,,,,,,False,fewer than 3 observations in both conditions
+C6KTC7,PF3D7_0629200,"DnaJ protein, putative",P. falciparum,1,9.922,1,3,13.228,10,,,,,,,False,fewer than 3 observations in control
+C6S3I1,PF3D7_1426300,"Dynein-associated protein, putative",P. falciparum,0,,0,2,9.854,2,,,,,,,False,fewer than 3 observations in both conditions
+O14818,PSMA7,Proteasome subunit alpha type-7,human,2,12.002,4,2,11.065,2,,,,,,,False,not a P. falciparum protein group
+O75131,CPNE3,Copine-3,human,2,11.684,4,1,10.465,2,,,,,,,False,not a P. falciparum protein group
+O75635,SERPINB7,Serpin B7,human,2,12.928,3,2,12.028,2,,,,,,,False,not a P. falciparum protein group
+O77384,PFC0760c,Protein PFC0760c,P. falciparum,1,8.643,1,1,9.502,1,,,,,,,False,fewer than 3 observations in both conditions
+P00403,MT-CO2,Cytochrome c oxidase subunit 2,human,1,13.677,2,1,12.829,1,,,,,,,False,not a P. falciparum protein group
+P00441,SOD1,Superoxide dismutase [Cu-Zn],human,2,11.687,2,1,12.29,2,,,,,,,False,not a P. falciparum protein group
+P00568,AK1,Adenylate kinase isoenzyme 1,human,2,10.813,4,1,13.475,1,,,,,,,False,not a P. falciparum protein group
+P01859,IGHG2,Immunoglobulin heavy constant gamma 2,human,1,17.343,3,1,11.448,1,,,,,,,False,not a P. falciparum protein group
+P02788,LTF,Lactotransferrin,human,2,13.116,8,3,13.366,7,,,,,,,False,not a P. falciparum protein group
+P04062,GBA,Lysosomal acid glucosylceramidase,human,2,12.387,4,2,11.441,2,,,,,,,False,not a P. falciparum protein group
+P04279;Q02383,SEMG1,Semenogelin-1;Semenogelin-2,human,1,10.551,1,1,11.491,1,,,,,,,False,not a P. falciparum protein group
+P06753,TPM3,Tropomyosin alpha-3 chain,human,2,13.14,4,1,13.286,2,,,,,,,False,not a P. falciparum protein group
+P07864,LDHC,L-lactate dehydrogenase C chain,human,2,16.131,2,3,17.021,5,,,,,,,False,not a P. falciparum protein group
+P08865,RPSA,40S ribosomal protein SA,human,1,12.181,2,1,14.326,2,,,,,,,False,not a P. falciparum protein group
+P09622,DLD,"Dihydrolipoyl dehydrogenase, mitochondrial",human,1,13.432,3,1,12.361,3,,,,,,,False,not a P. falciparum protein group
+P0DME0;Q01105,SETSIP,Protein SETSIP;Protein SET,human,1,12.277,3,1,14.425,1,,,,,,,False,not a P. falciparum protein group
+P11216,PYGB,"Glycogen phosphorylase, brain form",human,1,12.917,1,1,12.223,2,,,,,,,False,not a P. falciparum protein group
+P11233,RALA,Ras-related protein Ral-A,human,1,13.599,2,2,15.065,2,,,,,,,False,not a P. falciparum protein group
+P13798,APEH,Acylamino-acid-releasing enzyme,human,2,13.027,5,1,11.582,1,,,,,,,False,not a P. falciparum protein group
+P13929,ENO3,Beta-enolase,human,0,,0,2,11.224,2,,,,,,,False,not a P. falciparum protein group
+P15104,GLUL,Glutamine synthetase,human,2,14.555,14,3,11.69,3,,,,,,,False,not a P. falciparum protein group
+P15153;P60763;P63000,RAC2,Ras-related C3 botulinum toxin substrate 2;Ras-related C3 botulinum toxin substrate 3;Ras-related C3 botulinum toxin substrate 1,human,2,12.177,2,2,12.573,2,,,,,,,False,not a P. falciparum protein group
+P15259;P18669,PGAM2,Phosphoglycerate mutase 2;Phosphoglycerate mutase 1,human,1,14.203,2,1,12.286,2,,,,,,,False,not a P. falciparum protein group
+P17931,LGALS3,Galectin-3,human,1,12.671,1,1,11.065,1,,,,,,,False,not a P. falciparum protein group
+P19971,TYMP,Thymidine phosphorylase,human,1,18.212,12,1,12.692,1,,,,,,,False,not a P. falciparum protein group
+P20073,ANXA7,Annexin A7,human,1,13.502,7,1,12.06,2,,,,,,,False,not a P. falciparum protein group
+P20340,RAB6A,Ras-related protein Rab-6A,human,1,12.007,2,1,12.558,1,,,,,,,False,not a P. falciparum protein group
+P20700,LMNB1,Lamin-B1,human,2,13.128,7,2,10.461,3,,,,,,,False,not a P. falciparum protein group
+P21796,VDAC1,Voltage-dependent anion-selective channel protein 1,human,2,12.389,3,1,10.506,4,,,,,,,False,not a P. falciparum protein group
+P23246,SFPQ,"Splicing factor, proline- and glutamine-rich",human,1,13.244,2,1,12.657,3,,,,,,,False,not a P. falciparum protein group
+P23284,PPIB,Peptidyl-prolyl cis-trans isomerase B,human,1,13.492,3,1,14.79,3,,,,,,,False,not a P. falciparum protein group
+P23381,WARS1,"Tryptophan--tRNA ligase, cytoplasmic",human,1,14.445,5,1,14.735,1,,,,,,,False,not a P. falciparum protein group
+P23490,LORICRIN,Loricrin,human,2,13.953,4,3,13.663,5,,,,,,,False,not a P. falciparum protein group
+P25786,PSMA1,Proteasome subunit alpha type-1,human,2,14.126,8,3,12.916,5,,,,,,,False,not a P. falciparum protein group
+P25787,PSMA2,Proteasome subunit alpha type-2,human,2,12.98,6,1,11.068,1,,,,,,,False,not a P. falciparum protein group
+P26599,PTBP1,Polypyrimidine tract-binding protein 1,human,1,13.261,2,1,10.58,2,,,,,,,False,not a P. falciparum protein group
+P28066,PSMA5,Proteasome subunit alpha type-5,human,2,12.054,3,0,,2,,,,,,,False,not a P. falciparum protein group
+P28074,PSMB5,Proteasome subunit beta type-5,human,2,12.284,6,1,10.793,1,,,,,,,False,not a P. falciparum protein group
+P30043,BLVRB,Flavin reductase (NADPH),human,2,10.84,3,0,,1,,,,,,,False,not a P. falciparum protein group
+P31025;Q5VSP4,LCN1,Lipocalin-1;Putative lipocalin 1-like protein 1,human,2,9.879,2,1,12.376,1,,,,,,,False,not a P. falciparum protein group
+P31949,S100A11,Protein S100-A11,human,2,14.304,4,1,13.034,1,,,,,,,False,not a P. falciparum protein group
+P37837,TALDO1,Transaldolase,human,2,13.294,8,2,13.282,3,,,,,,,False,not a P. falciparum protein group
+P39023,RPL3,60S ribosomal protein L3,human,2,11.076,5,2,11.309,2,,,,,,,False,not a P. falciparum protein group
+P42357,HAL,Histidine ammonia-lyase,human,2,12.47,5,2,12.849,2,,,,,,,False,not a P. falciparum protein group
+P49862,KLK7,Kallikrein-7,human,2,13.624,5,1,11.481,1,,,,,,,False,not a P. falciparum protein group
+P50238,CRIP1,Cysteine-rich protein 1,human,2,10.871,2,0,,0,,,,,,,False,not a P. falciparum protein group
+P50402,EMD,Emerin,human,1,12.152,1,1,10.811,1,,,,,,,False,not a P. falciparum protein group
+P51148,RAB5C,Ras-related protein Rab-5C,human,1,11.526,1,1,9.919,2,,,,,,,False,not a P. falciparum protein group
+P51149,RAB7A,Ras-related protein Rab-7a,human,2,12.663,4,1,14.437,5,,,,,,,False,not a P. falciparum protein group
+P51571,SSR4,Translocon-associated protein subunit delta,human,1,11.55,1,1,12.993,2,,,,,,,False,not a P. falciparum protein group
+P52907,CAPZA1,F-actin-capping protein subunit alpha-1,human,1,13.284,4,1,14.143,1,,,,,,,False,not a P. falciparum protein group
+P53999,SUB1,Activated RNA polymerase II transcriptional coactivator p15,human,1,10.306,1,1,11.747,1,,,,,,,False,not a P. falciparum protein group
+P56537,EIF6,Eukaryotic translation initiation factor 6,human,2,13.444,2,0,,0,,,,,,,False,not a P. falciparum protein group
+P59998,ARPC4,Actin-related protein 2/3 complex subunit 4,human,1,12.917,2,1,12.722,1,,,,,,,False,not a P. falciparum protein group
+P60323,NANOS3,Nanos homolog 3,human,2,14.786,2,3,13.93,3,,,,,,,False,not a P. falciparum protein group
+P60900,PSMA6,Proteasome subunit alpha type-6,human,2,13.554,4,2,12.212,4,,,,,,,False,not a P. falciparum protein group
+P61247,RPS3A,40S ribosomal protein S3a,human,1,12.804,1,1,10.051,2,,,,,,,False,not a P. falciparum protein group
+P61254;Q9UNX3,RPL26,60S ribosomal protein L26;60S ribosomal protein L26-like 1,human,1,10.453,1,1,12.186,1,,,,,,,False,not a P. falciparum protein group
+P61313,RPL15,60S ribosomal protein L15,human,1,13.167,2,1,11.871,1,,,,,,,False,not a P. falciparum protein group
+P61353,RPL27,60S ribosomal protein L27,human,1,12.15,1,1,12.66,1,,,,,,,False,not a P. falciparum protein group
+P62244,RPS15A,40S ribosomal protein S15a,human,1,13.873,1,1,13.011,1,,,,,,,False,not a P. falciparum protein group
+P62249,RPS16,40S ribosomal protein S16,human,1,11.119,1,1,13.828,1,,,,,,,False,not a P. falciparum protein group
+P62851,RPS25,40S ribosomal protein S25,human,1,13.505,2,1,14.112,2,,,,,,,False,not a P. falciparum protein group
+P62899,RPL31,60S ribosomal protein L31,human,1,13.452,1,1,12.916,2,,,,,,,False,not a P. falciparum protein group
+P62913,RPL11,60S ribosomal protein L11,human,1,12.94,2,1,14.87,1,,,,,,,False,not a P. falciparum protein group
+P62917,RPL8,60S ribosomal protein L8,human,1,13.607,1,1,11.927,1,,,,,,,False,not a P. falciparum protein group
+P84103,SRSF3,Serine/arginine-rich splicing factor 3,human,1,13.144,1,1,12.242,2,,,,,,,False,not a P. falciparum protein group
+Q01518,CAP1,Adenylyl cyclase-associated protein 1,human,1,13.205,1,1,10.449,2,,,,,,,False,not a P. falciparum protein group
+Q02094,RHAG,Ammonium transporter Rh type A,human,1,9.724,1,2,9.858,2,,,,,,,False,not a P. falciparum protein group
+Q02878,RPL6,60S ribosomal protein L6,human,1,13.47,3,1,12.478,2,,,,,,,False,not a P. falciparum protein group
+Q07955,SRSF1,Serine/arginine-rich splicing factor 1,human,1,10.826,2,1,13.408,2,,,,,,,False,not a P. falciparum protein group
+Q08378,GOLGA3,Golgin subfamily A member 3,human,1,9.86,1,2,9.38,2,,,,,,,False,not a P. falciparum protein group
+Q14210,LY6D,Lymphocyte antigen 6D,human,2,13.326,3,1,12.839,1,,,,,,,False,not a P. falciparum protein group
+Q14956,GPNMB,Transmembrane glycoprotein NMB,human,2,10.056,2,0,,0,,,,,,,False,not a P. falciparum protein group
+Q15828,CST6,Cystatin-M,human,2,11.917,3,2,10.304,2,,,,,,,False,not a P. falciparum protein group
+Q16610,ECM1,Extracellular matrix protein 1,human,2,11.994,2,3,12.019,3,,,,,,,False,not a P. falciparum protein group
+Q6E0U4,DMKN,Dermokine,human,2,11.184,2,1,11.787,1,,,,,,,False,not a P. falciparum protein group
+Q6ZVX7,NCCRP1,F-box only protein 50,human,2,13.23,6,2,12.438,3,,,,,,,False,not a P. falciparum protein group
+Q7KWJ4,PF3D7_0206700,Adenylosuccinate lyase,P. falciparum,1,10.875,1,1,9.99,1,,,,,,,False,fewer than 3 observations in both conditions
+Q7L5L3,GDPD3,Lysophospholipase D GDPD3,human,1,10.787,2,1,11.25,1,,,,,,,False,not a P. falciparum protein group
+Q8I0V1,PF3D7_1247800,Dipeptidyl aminopeptidase 2,P. falciparum,0,,0,3,14.273,10,,,,,,,False,fewer than 3 observations in control
+Q8I1X4,PF3D7_0405500,Uncharacterized protein,P. falciparum,2,9.849,2,3,11.443,3,,,,,,,False,fewer than 3 observations in control
+Q8I3V1,PF3D7_0515700,"Glideosome-associated protein 40, putative",P. falciparum,1,11.378,1,1,10.942,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8I3V2,PF3D7_0515600,Uncharacterized protein,P. falciparum,2,10.947,2,1,11.806,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8I463,PF3D7_0503800,60S ribosomal protein L31,P. falciparum,0,,0,3,11.2,3,,,,,,,False,fewer than 3 observations in control
+Q8I5F6,PF3D7_1226100,"Haloacid dehalogenase-like hydrolase, putative",P. falciparum,1,9.443,1,2,11.239,3,,,,,,,False,fewer than 3 observations in both conditions
+Q8I5L2,PF3D7_1220000,"Zinc finger protein, putative",P. falciparum,1,8.446,1,1,10.489,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8I5N3,PF3D7_1217500,Uncharacterized protein,P. falciparum,1,10.886,1,3,12.358,3,,,,,,,False,fewer than 3 observations in control
+Q8I5Q5,PF3D7_1215100,Uncharacterized protein,P. falciparum,1,11.044,1,3,17.468,43,,,,,,,False,fewer than 3 observations in control
+Q8I5T4,PF3D7_1211700,"DNA replication licensing factor MCM5, putative",P. falciparum,1,9.036,1,2,10.923,2,,,,,,,False,fewer than 3 observations in both conditions
+Q8IBQ6,PF3D7_0719600,"60S ribosomal protein L11a, putative",P. falciparum,1,10.908,2,2,11.963,2,,,,,,,False,fewer than 3 observations in both conditions
+Q8ID89,PF3D7_1361700,"Cytochrome c oxidase subunit 2, putative",P. falciparum,2,9.949,3,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8IDS0,PF3D7_1341900,"V-type proton ATPase subunit D, putative",P. falciparum,2,10.306,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8IE66,PF3D7_1325200,"Oxidoreductase, putative",P. falciparum,1,9.901,1,2,11.909,4,,,,,,,False,fewer than 3 observations in both conditions
+Q8IE67,PF3D7_1325100,Phosphoribosylpyrophosphate synthetase,P. falciparum,2,12.008,2,3,12.776,3,,,,,,,False,fewer than 3 observations in control
+Q8IHS5,PF3D7_1144000,40S ribosomal protein S21,P. falciparum,2,11.509,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8II73,PF3D7_1129000,Spermidine synthase,P. falciparum,2,10.952,3,3,10.914,3,,,,,,,False,fewer than 3 observations in control
+Q8II80,PF3D7_1128300,6-phosphofructokinase,P. falciparum,2,12.063,8,2,12.916,6,,,,,,,False,fewer than 3 observations in both conditions
+Q8IJF3,PF3D7_1025100,"Glutamine--fructose-6-phosphate aminotransferase [isomerizing], putative",P. falciparum,1,10.673,1,1,10.438,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8IJI4,PF3D7_1021900,Uncharacterized protein,P. falciparum,2,10.337,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8IJK8,PF3D7_1019400,"60S ribosomal protein L30e, putative",P. falciparum,2,10.711,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8IKE5,PF3D7_1469200,"Shewanella-like protein phosphatase 1, putative",P. falciparum,0,,0,3,11.095,3,,,,,,,False,fewer than 3 observations in control
+Q8IKQ1,PF3D7_1457900,Uncharacterized protein,P. falciparum,2,9.205,2,0,,0,,,,,,,False,fewer than 3 observations in both conditions
+Q8ILE8,PF3D7_1431700,"60S ribosomal protein L14, putative",P. falciparum,1,10.863,2,1,12.292,2,,,,,,,False,fewer than 3 observations in both conditions
+Q8ILV2,PF3D7_1414300,"60S ribosomal protein L10, putative",P. falciparum,2,12.37,5,1,12.809,2,,,,,,,False,fewer than 3 observations in both conditions
+Q8IM10,PF3D7_1408600,40S ribosomal protein S8,P. falciparum,1,10.18,1,1,10.736,1,,,,,,,False,fewer than 3 observations in both conditions
+Q8IW75,SERPINA12,Serpin A12,human,2,14.373,5,3,13.259,6,,,,,,,False,not a P. falciparum protein group
+Q8NEX9,SDR9C7,Short-chain dehydrogenase/reductase family 9C member 7,human,2,12.034,3,1,10.558,2,,,,,,,False,not a P. falciparum protein group
+Q8WVV4,POF1B,Protein POF1B,human,2,14.868,9,3,14.617,6,,,,,,,False,not a P. falciparum protein group
+Q92820,GGH,Gamma-glutamyl hydrolase,human,2,12.313,2,2,12.814,2,,,,,,,False,not a P. falciparum protein group
+Q969T9,WBP2,WW domain-binding protein 2,human,2,11.579,2,0,,0,,,,,,,False,not a P. falciparum protein group
+Q99436,PSMB7,Proteasome subunit beta type-7,human,2,11.358,3,1,12.04,1,,,,,,,False,not a P. falciparum protein group
+Q99497,PARK7,Parkinson disease protein 7,human,2,11.737,2,2,11.904,3,,,,,,,False,not a P. falciparum protein group
+Q9BVC6,TMEM109,Transmembrane protein 109,human,1,11.675,1,1,9.148,1,,,,,,,False,not a P. falciparum protein group
+Q9BYJ1,ALOXE3,Hydroperoxide isomerase ALOXE3,human,2,13.37,4,1,11.819,1,,,,,,,False,not a P. falciparum protein group
+Q9HCY8,S100A14,Protein S100-A14,human,2,13.482,6,2,12.913,2,,,,,,,False,not a P. falciparum protein group
+Q9UI42,CPA4,Carboxypeptidase A4,human,2,13.43,8,2,13.033,5,,,,,,,False,not a P. falciparum protein group
+Q9UQ80,PA2G4,Proliferation-associated protein 2G4,human,1,12.957,2,1,11.761,1,,,,,,,False,not a P. falciparum protein group

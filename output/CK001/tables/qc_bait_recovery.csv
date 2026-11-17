@@ -1,0 +1,7 @@
+sample,condition,bait_log2_intensity,rank_by_intensity,of_n_quantified,percent_of_sample_signal,spectral_counts
+001,DMSO,25.275,2,1586,8.8,82
+003,DMSO,25.085,1,1751,6.27,81
+002,RAPA,25.647,1,1715,8.43,79
+004,RAPA,24.68,1,1446,8.32,80
+005,NF54,18.839,22,745,0.71,5
+006,NF54,17.083,147,1036,0.12,21

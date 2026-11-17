@@ -1,0 +1,23 @@
+# Environment for the Co-IP proteomics notebooks.
+#
+#   mamba env create -f environment.yml -n coip
+#   conda activate coip
+#   jupyter lab notebooks/FR002_SUN.ipynb
+#
+# The statistics in FR002 run in R, called from Python: limma for the
+# complete-case comparison and proDA for the one that keeps missing values.
+# CK001 is descriptive and needs only the Python packages.
+name: coip
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - openpyxl              # pandas Excel engine for the ProteoFlux workbooks
+  - jupyterlab
+  - ipykernel
+  - r-base                # FR002 only
+  - bioconductor-limma    # section 04, complete-case differential recovery
+  - bioconductor-proda    # section 04, differential recovery keeping missing values
+  - r-statmod             # used by limma's eBayes

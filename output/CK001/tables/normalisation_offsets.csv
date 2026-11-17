@@ -1,0 +1,7 @@
+run,condition,normalised,median_log2_before,offset_log2,median_log2_after
+001,DMSO,True,14.5822,0.2499,14.832
+003,DMSO,True,15.0498,-0.2177,14.832
+002,RAPA,True,15.1824,-0.3504,14.832
+004,RAPA,True,14.5138,0.3183,14.832
+005,NF54,False,14.1278,0.0,14.1278
+006,NF54,False,14.3668,0.0,14.3668

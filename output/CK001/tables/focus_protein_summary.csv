@@ -1,0 +1,6 @@
+protein_group,label,description,n_observed_DMSO,n_observed_RAPA,n_observed_NF54,mean_log2_DMSO,mean_log2_RAPA,mean_log2_NF54,log2FC,log2FC_raw,log2FC_relative_to_bait,spectra_001,spectra_003,spectra_002,spectra_004,spectra_005,spectra_006
+Q8IIK5,RON4,Rhoptry neck protein 4,2,2,2,25.1962,25.1474,17.9609,-0.0488,-0.0166,0.0,82,81,79,80,5,21
+Q8I4R5,RON3,Rhoptry neck protein 3,2,2,2,22.3608,21.2478,16.148,-1.113,-1.0809,-1.0642,120,112,109,86,4,13
+Q7KQK5;Q94661,AMA1,Apical membrane antigen 1,2,2,2,22.997,21.7686,14.4061,-1.2284,-1.1963,-1.1796,60,59,57,44,1,6
+Q8IKV6,RON2,Rhoptry neck protein 2,2,2,1,24.7939,22.7722,15.7739,-2.0216,-1.9895,-1.9728,137,130,122,96,0,8
+C0H4V4,RON5,Rhoptry neck protein 5,2,2,1,24.647,22.3917,15.5385,-2.2553,-2.2231,-2.2065,88,84,73,62,0,6

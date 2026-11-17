@@ -1,0 +1,7 @@
+method,population,tested,significant,enriched,depleted
+limma,"all proteins, raw",179,4,0,4
+limma,"parasite only, raw",89,19,1,18
+limma,"parasite only, normalised",89,29,13,16
+proDA,"all proteins, raw",567,0,0,0
+proDA,"parasite only, raw",223,0,0,0
+proDA,"parasite only, normalised",223,5,1,4

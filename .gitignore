@@ -1,0 +1,7 @@
+.tools/
+__pycache__/
+
+# The two large reference proteomes, 11 MB together. Rebuild them with
+#   python input/reference/build_species_proteomes.py input/FR002/*.xlsx
+input/reference/uniprot_human_reviewed.fasta.gz
+input/reference/uniprot_pfalciparum_5833.fasta.gz

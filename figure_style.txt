@@ -1,0 +1,145 @@
+# Figure style
+
+The conventions the figures in both notebooks follow. They are set in
+`src/coip/figures.py`; this file is the reference for why.
+
+Figures should look like those in a well-designed biology paper: restrained,
+readable, no decoration. One figure, one result. The simplest plot that shows the
+data accurately, readable at the size it will be printed.
+
+
+## Layout and typography
+
+White background, thin black axes at about 0.75 pt, left and bottom spines only
+where that suits the plot, outward ticks, no gridlines.
+
+No titles inside the plotting area and no explanatory text on the canvas; the
+caption in the notebook carries the explanation.
+
+Multipanel figures get bold panel letters A, B, C just outside the top-left of each
+panel, added by `figures.save`. Axes are aligned and scales shared where panels are
+meant to be compared.
+
+Arial, Helvetica or Liberation Sans. 8 pt base, 8.5 pt axis labels, 7.5 pt ticks and
+legends, 9 pt bold panel letters, all set by `figures.use_style()`.
+
+Axis labels name the quantity and its transformation, for example `log₂ intensity`
+or `log₂ fold change (RAPA/DMSO)`.
+
+
+## Colour
+
+Okabe-Ito is the default categorical palette, because it is colour-blind safe:
+
+| Colour | Hex |
+|---|---|
+| Black | `#000000` |
+| Orange | `#E69F00` |
+| Sky blue | `#56B4E9` |
+| Bluish green | `#009E73` |
+| Yellow | `#F0E442` |
+| Blue | `#0072B2` |
+| Vermillion | `#D55E00` |
+| Reddish purple | `#CC79A7` |
+
+Colour answers one of two questions, and never both in one figure.
+
+**Which condition a run belongs to.**
+
+| Role | Colour | FR002 | CK001 |
+|---|---|---|---|
+| Negative control | Bluish green `#009E73` | the control | NF54 |
+| Bait pull-down, untreated | Blue `#0072B2` | the PfSUN1 pull-down | DMSO |
+| Bait pull-down, treated | Orange `#E69F00` | — | RAPA |
+
+`figures.CONTROL_COLOUR` and `PULLDOWN_COLOUR`. CK001 sets its treated colour in its
+own configuration cell.
+
+**What a point or bar segment stands for.**
+
+| Role | Colour | Constant |
+|---|---|---|
+| The bait | Black `#000000` | `BAIT_COLOUR` |
+| Proteins the figure is about | Orange `#E69F00` | `HIGHLIGHT_COLOUR` |
+| Background | Light grey `#D9D9D9` | `BACKGROUND_GREY` |
+| Background subdivisions | Grey ramp | `BACKGROUND_RAMP` |
+
+Grey for context, colour for the result.
+
+### Experiment-specific palettes
+
+Approved exceptions, set in that notebook's configuration cell rather than in
+`figures.py`:
+
+- **FR002 protein classes** (`composition`, `top_contributors`). *P. falciparum* in
+  Okabe-Ito blue `#0072B2`; human classes as a pink ramp off reddish purple:
+  `#8E416C`, `#B76294`, `#CC79A7`, `#E9C3D8`; mixed species `#444444`; unassigned
+  `#EEEEEE`. Approved 13 November 2026.
+- **CK001 conditions and selected proteins.** RAPA in orange `#E69F00` rather than
+  vermillion, and the proteins a figure is about in sky blue `#56B4E9` rather than
+  orange, so the two never collide in one figure (`SELECTED_COLOUR`). Approved
+  17 November 2026.
+
+### Matrices
+
+A matrix needs a perceptually uniform sequential map: `figures.SIMILARITY_MAP`, a
+single blue hue, or viridis where the full range has to be read at a glance, which
+is what both run-agreement heatmaps use. Avoid rainbow maps, and use a diverging map
+only when the quantity has a real midpoint.
+
+Draw the full symmetric matrix when reading along a row matters, and leave the
+diagonal blank: a run compared with itself is not a measurement.
+
+### Accessibility
+
+Figures stay interpretable in greyscale and for readers with colour-vision
+deficiency. Where colour alone would carry the message, position, shape or an
+outline carries it too. Fills are the exact hex at full opacity; transparency is for
+dense scatter overplotting only, and the caption says so.
+
+
+## Labels and legends
+
+Axis and tick labels are black. Prefer a direct label on the data over a legend, and
+keep legends short and outside the data region unless inside is genuinely better.
+
+Label a handful of proteins, not every outlier. `figures.label_points` places them,
+trying short offsets first and drawing a leader only where a name had to move.
+
+
+## Statistics and missing values
+
+- Show individual observations when the sample size is small; prefer dot plots to
+  bars for few replicates.
+- Never invent an error bar or a confidence interval.
+- Distinguish technical from biological replication, and never let a figure imply
+  biological replication the design does not have.
+- Draw a significance threshold only where the design supports a test and something
+  reaches it. A fold-change guide is a magnitude, and the caption says so.
+- A missing measurement is never drawn as a zero and never imputed. Show it as a gap
+  or an open marker, count it, and say in the caption which is which.
+
+
+## Per plot type
+
+- **Composition.** Stacked bars, stable category order, one legend outside the panels.
+- **Measurement depth.** Separate panels for quantities on different scales. Where
+  one count is a subset of another, stack them so an equal pair shows no gap.
+- **Run agreement.** Every pair scored on the same protein groups, named in the
+  caption.
+- **Normalisation.** Before and after on one shared scale, with the offsets shown.
+- **Protein recovery.** Every individual measurement, one lane per condition. A
+  protein not quantified in a run is an open ring in a separate strip.
+- **Volcano.** log₂ fold change against the adjusted p-value, both named on the axes,
+  tested and significant counts in a corner, identical axis limits across panels.
+- **SAINTexpress.** Observed counts and model-derived scores in separate panels,
+  never one composite score. The bait is set apart in the bait colour.
+
+
+## Export
+
+`figures.use_style()` once at the top of a notebook. Widths come from
+`figures.SINGLE_COLUMN` (85 mm) and `figures.DOUBLE_COLUMN` (180 mm); height follows
+the content. `figures.save(fig, name, directory, panel_axes=axes)` adds the panel
+letters and writes PDF, SVG and 400 dpi PNG together, with text kept editable
+(`pdf.fonttype 42`, `svg.fonttype none`).
