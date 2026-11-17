@@ -64,14 +64,3 @@ fourfold less per unit of bait under RAPA, AMA1 and RON3 about twofold.
 groups that cannot be ranked, `normalisation_offsets`, `normalisation_sensitivity` and
 `focus_protein_summary`.
 
-## The SAINTexpress run
-
-SAINTexpress is no longer part of this notebook: with one control purification injected
-twice it scored 757 of 1,778 preys below BFDR 0.01, which measures the depth difference
-between the runs more than it measures specificity.
-
-`saint/` keeps the three files that run was given and the `list.txt` it returned:
-`bait.dat` (IP, bait, T or C), `prey.dat` (prey id, length, gene name) and `inter.dat`
-(IP, bait, prey, spectral count), tab-separated without headers, so the run can be
-repeated by hand. The notebook that examined that run, and the tables it produced,
-are in the git history at commit `b06d6c6`.
