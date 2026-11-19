@@ -80,9 +80,3 @@ figure_style.txt Figure conventions
 ```
 
 Each output directory contains figures (PDF, SVG and 400 dpi PNG), numerical result tables and an experiment-specific README. Re-running an analysis overwrites its generated outputs.
-
-## Interpretation
-
-Missing intensity measurements are kept as missing values, without imputation.
-
-Co-IP-MS measures proteins recovered during a pull-down. Differences in recovery do not necessarily reflect changes in cellular protein abundance, and co-recovery does not establish direct physical binding.
