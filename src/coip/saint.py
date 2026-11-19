@@ -14,7 +14,6 @@ particular experiment.
 
 from __future__ import annotations
 
-import gzip
 import hashlib
 import platform
 import shutil
@@ -85,57 +84,33 @@ def version(binary):
     return (done.stdout + done.stderr).strip()
 
 
-# --- prey lengths ------------------------------------------------------------
+# --- preys -------------------------------------------------------------------
 
-def fasta_lengths(path):
-    """Sequence length per accession, read from a FASTA file.
-
-    Accepts plain or gzipped FASTA and UniProt-style '>db|ACCESSION|name'
-    headers as well as plain '>ACCESSION' ones.
-    """
-    path = Path(path)
-    opener = gzip.open if path.suffix == ".gz" else open
-    lengths, accession = {}, None
-    with opener(path, "rt") as handle:
-        for line in handle:
-            if line.startswith(">"):
-                header = line[1:].strip()
-                parts = header.split("|")
-                accession = parts[1] if len(parts) > 2 else header.split()[0]
-                lengths[accession] = 0
-            elif accession is not None:
-                lengths[accession] += len(line.strip())
-    return lengths
-
-
-def prey_table(protein_groups, lengths, gene_names=None):
+def prey_table(protein_groups, gene_names=None):
     """One SAINTexpress prey row per protein group.
 
     A protein group holds several accessions that the search could not tell
-    apart. SAINTexpress wants a single identifier and a single length, so the
-    first accession becomes the prey id and the length comes from the first
-    member that has a sequence. Which member supplied it is reported, together
-    with the group it stands for, so nothing is lost.
+    apart. SAINTexpress wants a single identifier, so the first accession
+    becomes the prey id, and the group it stands for is reported alongside it
+    so nothing is lost.
 
-    The length is required by the prey file format, not used by the score:
-    SAINTexpress-spc reads and stores it but never reads it back. Length
-    normalisation belonged to the original SAINT. Real lengths are still
-    supplied, because they document the prey and other implementations use
-    them.
+    No prey length is recorded. The prey file SAINTexpress-spc reads takes two
+    columns, identifier and gene name, as well as three with a length between
+    them, and the length never reaches the score: the program stores it,
+    `get_preyLength` is never called, and 'list.txt' has no length column.
+    Length normalisation belonged to the original SAINT, not to this one, so
+    no protein sequences are needed to score a pull-down.
 
     Returns the prey table and a mapping back to the original protein groups.
     """
     rows = []
     for position, group in enumerate(protein_groups):
         members = [m.strip() for m in str(group).split(";") if m.strip()]
-        source = next((m for m in members if m in lengths), None)
         rows.append({
             "row": position,
             "prey_id": members[0],
             "protein_group": str(group),
             "n_accessions": len(members),
-            "length_source_accession": source,
-            "prey_length": lengths.get(source) if source else np.nan,
             "gene_name": (str(gene_names[position]).split(";")[0]
                           if gene_names is not None else members[0]) or members[0],
         })
@@ -148,6 +123,15 @@ def prey_table(protein_groups, lengths, gene_names=None):
 
 # --- input tables ------------------------------------------------------------
 
+def _is_number(text):
+    """Whether SAINTexpress would read `text` as a number rather than a name."""
+    try:
+        float(text)
+    except ValueError:
+        return False
+    return True
+
+
 def saint_tables(counts, prey_mapping, bait_of, control_samples):
     """Build SAINTexpress's three input tables from a spectral count matrix.
 
@@ -158,6 +142,9 @@ def saint_tables(counts, prey_mapping, bait_of, control_samples):
 
     Counts are passed through unchanged. SAINTexpress does its own
     normalisation internally and must see the original numbers.
+
+    The prey file is written with two columns, identifier and gene name; see
+    `prey_table` for why no length is needed.
     """
     samples = list(counts.columns)
     unknown = [s for s in samples if s not in bait_of]
@@ -166,19 +153,26 @@ def saint_tables(counts, prey_mapping, bait_of, control_samples):
     if not set(control_samples) <= set(samples):
         raise KeyError("control samples are not all in the count matrix")
 
-    usable = prey_mapping.dropna(subset=["prey_length"])
-    prey = pd.DataFrame({
-        "prey_id": usable["prey_id"],
-        "prey_length": usable["prey_length"].astype(int),
-        "gene_name": usable["gene_name"]})
+    # SAINTexpress reads a second column it can parse as a number as a prey
+    # length, and then takes the identifier as the gene name. A missing name
+    # arrives here as 'nan', which parses. Either way the name would be lost
+    # silently, so neither is written.
+    names = prey_mapping["gene_name"].astype(str)
+    unusable = [n for n in names if not n.strip() or _is_number(n)]
+    if unusable:
+        raise ValueError(
+            f"{len(unusable)} prey gene name(s) are missing or would be read "
+            f"as a prey length: {unusable[:5]}")
+    prey = pd.DataFrame({"prey_id": prey_mapping["prey_id"],
+                         "gene_name": names})
 
     bait = pd.DataFrame({
         "ip_id": samples,
         "bait_id": [bait_of[s] for s in samples],
         "control": ["C" if s in set(control_samples) else "T" for s in samples]})
 
-    long = (counts.loc[usable["row"]]
-            .set_axis(usable["prey_id"].to_numpy())
+    long = (counts.loc[prey_mapping["row"]]
+            .set_axis(prey_mapping["prey_id"].to_numpy())
             .rename_axis("prey_id").reset_index()
             .melt(id_vars="prey_id", var_name="ip_id", value_name="count"))
     long = long[long["count"].notna() & (long["count"] > 0)]

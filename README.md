@@ -51,15 +51,9 @@ The environment includes Python, R, limma and proDA.
 
 Both experiments use processed ProteoFlux tables, stored in `input/FR002/` and `input/CK001/`. The original workbooks are not modified.
 
-**FR002 only:** SAINTexpress requires additional protein reference sequences. Download and prepare them using:
+**FR002 only:** SAINTexpress is downloaded automatically on first use, which requires an internet connection. No protein reference sequences are needed: SAINTexpress takes each prey's identifier and gene name from the ProteoFlux table, and its prey file accepts a gene name in place of a sequence length. The vendored SAINTexpress stores a length without ever reading it back, so no length reaches the SAINT score.
 
-```bash
-python input/reference/build_species_proteomes.py input/FR002/*.xlsx
-```
-
-FR002 also downloads SAINTexpress automatically on first use. Both steps require an internet connection.
-
-CK001 requires neither step.
+CK001 requires no download.
 
 ## Running an analysis
 
@@ -78,7 +72,7 @@ The notebooks run independently, using shared Python and R functions from `src/c
 ```text
 notebooks/       Analysis notebooks for FR002 and CK001
 src/coip/        Shared Python and R code
-input/           ProteoFlux tables and reference files
+input/           ProteoFlux tables
 output/FR002/    PfSUN1 results
 output/CK001/    RON4 results
 environment.yml  Software dependencies

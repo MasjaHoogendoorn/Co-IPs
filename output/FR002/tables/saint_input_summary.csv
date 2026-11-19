@@ -2,5 +2,5 @@ file,bytes,sha256,detail
 bait.dat,72,93bbe9e0616a676e1c27bbbbe97f076aec7e5bf75937b54356e3c70cb77bea30,6 runs
 inter.dat,45947,869361ecf4e6679416c132f97304b9cc409856c0ae2e7e6d8c3f6df2b8a3af55,"2,362 rows"
 list.txt,42054,8eda593038ba6de81ea0bcff9976ffe11b2ce3bba1ee570b3c1e892eed47f753,501 scored pairs
-prey.dat,11399,a9c74d56d493ffc227dbddd633e8d6c3f1b0e3dfdd448d6741e756aa07d98c1a,567 preys
+prey.dat,9106,7c1a92f1ebbe58e8e6b8c7d53eb8465bba69b5eae2c33773973d01aba316d9fc,567 preys
 SAINTexpress-spc,1695797,03b0d5c929bf9634c29fba2d25f13a89c9a7531a3d78e31c7066d4f78fe349a0,SAINT express version 3.6.1
